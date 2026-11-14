@@ -1,6 +1,6 @@
 
 /* Blogger theme custom JavaScript
- * Repository: crazysuman99/blogger-theme
+ * Repository: crazysuman99/ksumanadhikari-theme
  * Third-party/Blogger dynamic scripts remain in theme.xml intentionally.
  */
 (function (window, document) {
@@ -150,7 +150,7 @@
       var width = document.body.clientWidth;
       $('.shnav li a').each(function () { if ($(this).next().length) $(this).addClass('parent'); });
       $('.menu-trigger').off('click.bloggerTheme').on('click.bloggerTheme', function (event) {
-        event.preventDefault(); $(this).toggleClass('active'); $('.shnav').toggle();
+        event.preventDefault(); $(this).toggleClass('active'); var opened = $(this).hasClass('active'); $(this).attr('aria-expanded', opened ? 'true' : 'false'); $('.shnav').toggle();
       });
       function adjustMenu() {
         width = document.body.clientWidth;
@@ -159,7 +159,7 @@
           if (!$('.menu-trigger').hasClass('active')) $('.shnav').hide(); else $('.shnav').show();
           $('.shnav li').off('mouseenter.bloggerTheme mouseleave.bloggerTheme');
           $('.shnav li a.parent').off('click.bloggerTheme').on('click.bloggerTheme', function (event) {
-            event.preventDefault(); $(this).parent('li').toggleClass('hover');
+            event.preventDefault(); var item = $(this).parent('li'); item.toggleClass('hover'); $(this).attr('aria-expanded', item.hasClass('hover') ? 'true' : 'false');
           });
         } else {
           $('.menu-trigger').css('display', 'none'); $('.shnav').show(); $('.shnav li').removeClass('hover');
