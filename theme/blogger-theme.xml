@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' expr:dir='data:blog.languageDirection' lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+  <meta content='width=device-width, initial-scale=1' name='viewport'/>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+  <title><data:blog.pageTitle/></title>
+  <b:include data='blog' name='all-head-content'/>
+  <meta content='Personal website of Ksumana Adhikari: technology, learning, business, law and disciplined living.' name='description'/>
+  <link href='https://fonts.googleapis.com' rel='preconnect'/>
+  <link crossorigin='anonymous' href='https://fonts.gstatic.com' rel='preconnect'/>
+  <link href='https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap' rel='stylesheet'/>
+  <link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/assets/css/site.css' rel='stylesheet'/>
+  <b:skin><![CDATA[
+    /* Blogger editor compatibility; visual styles are maintained in assets/css/site.css */
+    body{margin:0}
+  ]]></b:skin>
+</head>
+<body>
+  <div class='site-shell'>
+    <header class='site-header'>
+      <a class='brand-mark' expr:href='data:blog.homepageUrl'>
+        <span class='brand-symbol'>K.</span><span class='brand-name'>KSUMANA<span>ADHIKARI</span></span>
+      </a>
+      <button aria-controls='primary-nav' aria-expanded='false' aria-label='Open navigation' class='nav-toggle' type='button'><span></span><span></span><span></span></button>
+      <nav aria-label='Main navigation' class='primary-nav' id='primary-nav'>
+        <a href='#about'>About</a><a href='#world'>My World</a><a href='#learning'>Learn</a><a href='#work'>Work</a><a href='#media'>Media</a><a href='#journal'>Journal</a>
+        <a class='nav-contact' href='#contact'>Let's connect <span>↗</span></a>
+      </nav>
+    </header>
+
+    <b:if cond='data:blog.pageType == &quot;index&quot;'>
+      <main>
+        <section class='hero section-wrap' id='home'>
+          <div class='hero-copy'>
+            <div class='eyebrow'><span class='eyebrow-dot'></span> PERSONAL SPACE · IDEAS INTO ACTION</div>
+            <h1>Learn.<br/><em>Build.</em> Teach.<br/>Grow.</h1>
+            <p class='hero-lead'>Exploring technology, sharing knowledge, building useful things, and staying curious through every chapter.</p>
+            <div class='hero-actions'><a class='button button-dark' href='#world'>Explore my world <span>↗</span></a><a class='text-link' href='#about'>A little about me <span>↓</span></a></div>
+            <div class='hero-meta'><span>BASED IN NEPAL</span><span class='meta-line'></span><span>OPEN TO IDEAS &amp; COLLABORATION</span></div>
+          </div>
+          <div class='hero-visual'>
+            <div class='portrait-frame'>
+              <div class='portrait-orbit orbit-one'></div><div class='portrait-orbit orbit-two'></div>
+              <div class='portrait-placeholder'><span class='portrait-initial'>K.</span><span class='portrait-hint'>ADD YOUR PROFILE PHOTO<br/>IN THE THEME SETTINGS</span></div>
+              <div class='portrait-stamp'>CURIOUS<br/>BY DESIGN <span>✳</span></div>
+            </div>
+            <div class='floating-note note-top'><span>01 / MINDSET</span><strong>Stay curious.</strong></div>
+            <div class='floating-note note-bottom'><span>02 / PRACTICE</span><strong>Make it useful.</strong></div>
+          </div>
+        </section>
+
+        <section class='intro-strip'><div class='section-wrap intro-inner'><span class='strip-label'>A NOTE TO VISITORS</span><p>This is my corner of the internet — a place to <strong>learn in public, share what works,</strong> and connect ideas with real-world action.</p></div></section>
+
+        <section class='section-wrap content-section' id='about'>
+          <div class='section-heading'><div><span class='eyebrow'>THE PERSON BEHIND THE PROJECTS</span><h2>A little about <em>me.</em></h2></div><span class='section-index'>01 — ABOUT</span></div>
+          <div class='about-grid'><p class='about-statement'>I’m a learner, educator, and technology enthusiast who believes progress comes from curiosity, consistency, and sharing knowledge.</p><div class='about-detail'><p>This website brings together the things I study, create, teach, and care about. You’ll find practical learning resources, experiments, reflections, and ways we can work together.</p><a class='underlined-link' href='#contact'>Get in touch <span>↗</span></a></div></div>
+          <div class='principles'><div><span>01</span><strong>Learn continuously</strong><small>Stay open. Keep asking.</small></div><div><span>02</span><strong>Build with purpose</strong><small>Turn ideas into useful work.</small></div><div><span>03</span><strong>Share generously</strong><small>Make knowledge accessible.</small></div></div>
+        </section>
+
+        <section class='world-section' id='world'><div class='section-wrap content-section'><div class='section-heading'><div><span class='eyebrow'>CURIOSITY HAS MANY DIRECTIONS</span><h2>Explore my <em>world.</em></h2></div><span class='section-index'>02 — INTERESTS</span></div>
+          <div class='world-grid'>
+            <a class='world-card world-tech' href='https://operator.ksumanadhikari.com.np/'><span class='card-number'>01 / TECHNOLOGY</span><span class='world-icon'>⌘</span><h3>IT &amp; Technology</h3><p>Programming, web development, digital tools, and practical computer education.</p><span class='card-arrow'>↗</span></a>
+            <a class='world-card world-edu' href='#learning'><span class='card-number'>02 / EDUCATION</span><span class='world-icon'>✳</span><h3>Teaching &amp; Learning</h3><p>Making complex topics easier through notes, lessons, and hands-on practice.</p><span class='card-arrow'>↗</span></a>
+            <a class='world-card world-business' href='#journal'><span class='card-number'>03 / BUSINESS</span><span class='world-icon'>↗</span><h3>Business &amp; MBS</h3><p>Ideas around management, entrepreneurship, productivity, and growth.</p><span class='card-arrow'>↗</span></a>
+            <a class='world-card world-law' href='#journal'><span class='card-number'>04 / LAW</span><span class='world-icon'>§</span><h3>Law &amp; LLB</h3><p>Learning about law, justice, rights, and the institutions that shape society.</p><span class='card-arrow'>↗</span></a>
+          </div>
+          <p class='small-note'>Also making room for discipline, sport, creativity, and the occasional new obsession.</p>
+        </div></section>
+
+        <section class='section-wrap content-section' id='learning'><div class='section-heading'><div><span class='eyebrow'>KNOWLEDGE SHOULD MOVE</span><h2>Learn with <em>me.</em></h2></div><span class='section-index'>03 — LEARNING</span></div>
+          <div class='learning-panel'><div class='learning-copy'><span class='panel-kicker'>PRACTICAL · CLEAR · STUDENT-FOCUSED</span><h3>Understand the concept.<br/><em>Use the skill.</em></h3><p>Explore organized notes, tutorials, recorded lessons, and guided learning resources designed to help you move from confusion to confidence.</p><a class='button button-light' href='https://operator.ksumanadhikari.com.np/'>Explore learning resources <span>↗</span></a></div><div class='learning-list'><a href='https://operator.ksumanadhikari.com.np/'><span>01</span><div><strong>Study notes &amp; exam preparation</strong><small>Structured topics and revision resources</small></div><b>↗</b></a><a href='#media'><span>02</span><div><strong>Video lessons</strong><small>Learn at your own pace</small></div><b>↗</b></a><a href='#contact'><span>03</span><div><strong>Mentoring &amp; classes</strong><small>Guidance for your learning journey</small></div><b>↗</b></a></div></div>
+        </section>
+
+        <section class='services-section' id='work'><div class='section-wrap content-section'><div class='section-heading'><div><span class='eyebrow'>LET'S MAKE SOMETHING USEFUL</span><h2>Ways we can <em>work together.</em></h2></div><span class='section-index'>04 — SERVICES</span></div><div class='service-grid'><article><span>01 / DIGITAL</span><h3>Web &amp; technical projects</h3><p>Website setup, Blogger customization, learning platforms, and practical digital support.</p><a href='#contact'>Discuss a project ↗</a></article><article><span>02 / EDUCATION</span><h3>Teaching &amp; mentoring</h3><p>Concept-focused classes, study guidance, and support for students building practical skills.</p><a href='#contact'>Let's talk learning ↗</a></article><article><span>03 / COLLABORATION</span><h3>Content &amp; partnerships</h3><p>Educational content, workshops, collaborations, and ideas worth sharing.</p><a href='#contact'>Start a conversation ↗</a></article></div><p class='disclaimer'>Services and availability may vary. Legal practice is not offered through this website.</p></div></section>
+
+        <section class='section-wrap content-section' id='media'><div class='section-heading'><div><span class='eyebrow'>WATCH · LISTEN · THINK</span><h2>Ideas beyond the <em>page.</em></h2></div><span class='section-index'>05 — MEDIA</span></div><div class='media-grid'><div class='media-card video-card'><div class='media-topline'><span>YOUTUBE / VIDEO</span><span>▶</span></div><div class='video-frame' id='youtube-frame'><div class='video-placeholder'><span class='play-mark'>▶</span><strong>Video lessons &amp; conversations</strong><small>Add your YouTube video ID in assets/js/site.js</small></div></div><a class='media-footer' href='https://www.youtube.com/' id='youtube-channel-link' rel='noopener' target='_blank'>Visit YouTube channel <span>↗</span></a></div><div class='media-card podcast-card'><div class='media-topline'><span>PODCAST / AUDIO</span><span>◖))</span></div><div class='podcast-art'><span class='sound-wave'>▂ ▅ ▇ ▃ ▆ ▂</span><h3>Listen to<br/><em>the ideas.</em></h3><p>Conversations, reflections, and things worth thinking about.</p></div><div class='podcast-embed' id='podcast-embed'><span>Add your podcast embed URL in assets/js/site.js</span></div><a class='media-footer' href='#contact'>Suggest a topic <span>↗</span></a></div></div></section>
+
+        <section class='journal-section' id='journal'><div class='section-wrap content-section'><div class='section-heading'><div><span class='eyebrow'>NOTES FROM THE LEARNING PROCESS</span><h2>Latest from the <em>journal.</em></h2></div><a class='underlined-link' expr:href='data:blog.homepageUrl + &quot;search&quot;'>Browse all posts <span>↗</span></a></div><div class='journal-intro'>Articles, tutorials, study notes, and reflections — collected here as I learn and create.</div></div><div class='section-wrap blog-feed'><b:section class='main-blog-section' id='main' maxwidgets='1' name='Latest articles' showaddelement='yes'><b:widget id='Blog1' locked='true' title='Latest articles' type='Blog' version='2' visible='true'/></b:section></div></section>
+
+        <section class='contact-section' id='contact'><div class='section-wrap contact-inner'><div><span class='eyebrow'>HAVE AN IDEA OR A QUESTION?</span><h2>Let's make<br/><em>something matter.</em></h2><p>For projects, classes, mentoring, collaborations, or a simple hello — my inbox is open.</p></div><div class='contact-actions'><a class='button button-light' href='mailto:hello@ksumanadhikari.com.np'>Send me an email <span>↗</span></a><div class='social-links'><a href='https://www.youtube.com/' rel='noopener' target='_blank'>YouTube ↗</a><a href='https://www.facebook.com/' rel='noopener' target='_blank'>Facebook ↗</a><a href='https://www.tiktok.com/' rel='noopener' target='_blank'>TikTok ↗</a><a href='https://www.linkedin.com/' rel='noopener' target='_blank'>LinkedIn ↗</a></div></div></div></section>
+      </main>
+    <b:else/>
+      <main class='inner-page section-wrap'><div class='inner-page-head'><span class='eyebrow'>FROM THE JOURNAL</span><h1><data:blog.pageTitle/></h1><p>Ideas, learning resources, and notes from the journey.</p></div><b:section class='main-blog-section' id='main-inner' maxwidgets='1' name='Blog posts' showaddelement='yes'><b:widget id='Blog2' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'/></b:section></main>
+    </b:if>
+
+    <footer class='site-footer'><div class='section-wrap footer-top'><a class='brand-mark footer-brand' expr:href='data:blog.homepageUrl'><span class='brand-symbol'>K.</span><span class='brand-name'>KSUMANA<span>ADHIKARI</span></span></a><p>Learn continuously. Build intentionally. Share generously.</p><a class='back-top' href='#home'>Back to top ↑</a></div><div class='section-wrap footer-bottom'><span>© <data:blog.title/> · All rights reserved.</span><span>MADE WITH CURIOSITY IN NEPAL</span></div></footer>
+  </div>
+  <script src='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/assets/js/site.js'></script>
+</body>
+</html>
