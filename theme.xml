@@ -21,7 +21,7 @@
 <b:if cond='data:blog.metaDescription'>
 <meta expr:content='data:blog.metaDescription' name='description'/>
 <b:else/>
-<meta content='Suman Adhikari: computer education, programming tutorials, BICTE learning resources, computer operator exam preparation and IT education in Nepal.' name='description'/>
+<meta content='Suman Adhikari — technology, education, business, law, programming tutorials, learning resources, online classes, and personal growth.' name='description'/>
 </b:if>
 <meta content='Suman Adhikari' name='author'/>
 <link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
@@ -54,7 +54,7 @@
 <b:if cond='data:blog.metaDescription'>
 <meta expr:content='data:blog.metaDescription' property='og:description'/>
 <b:else/>
-<meta content='Computer education, programming tutorials, BICTE resources, computer operator exam preparation and IT learning resources from Nepal.' property='og:description'/>
+<meta content='Technology, education, business, law, programming, learning resources, online classes, and personal growth from Suman Adhikari.' property='og:description'/>
 </b:if>
 <meta content='en_US' property='og:locale'/>
 <meta content='ne_NP' property='og:locale:alternate'/>
@@ -124,6 +124,7 @@ body#layout #banner .add_widget,#layout #banner2 .add_widget{width:80%;margin:5p
 <link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/css/overall.css' rel='stylesheet' type='text/css'/>
 <!-- Dedicated homepage/archive post card styles -->
 <link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/css/post-cards.css' rel='stylesheet' type='text/css'/>
+<link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/css/brand-system.css' rel='stylesheet' type='text/css'/>
 
 <script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'/>
 <script defer='defer' src='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/js/theme.js'/>
@@ -164,9 +165,9 @@ loadCSS("https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700");l
 <div class='top-wrappers'>
 <nav class='top-gridnav'>
 <ul>
-<li><a href='https://www.youtube.com/@ksumanadhikari' title='About Us'><i class='fa fa-user'/> About</a></li>
+<li><a href='https://www.ksumanadhikari.com.np/p/bio.html' title='About Suman'><i class='fa fa-user'/> About</a></li>
 <li><a href='/sitemap.xml' title='Our Sitemap'><i class='fa fa-list'/> Sitemap</a></li>
-<li><a href='https://www.ksumanadhikari.com.np' title='Contact us'><i class='fa fa-envelope'/> Contact</a></li>
+<li><a href='mailto:ksumanadhikari@gmail.com' title='Contact Suman'><i class='fa fa-envelope'/> Contact</a></li>
 <li><a href='/p/disclaimer.html' title='Disclaimer'><i class='fa fa-check-circle'/> Disclaimer</a></li>
 <li class='sosmed'><a class='simple-tooltip simple-tooltip-left' data-simple-tooltip='Follow us on Facebook' href='https://www.facebook.com/profile.php?id=61595246783060' rel='nofollow' target='_blank'><i class='fa fa-facebook'/><span class='inv'/></a></li>
 <li class='sosmed'><a class='simple-tooltip simple-tooltip-left' data-simple-tooltip='Follow us on instagram' href='https://www.instagram.com/ksumanadhikari' rel='nofollow' target='_blank'><i class='fa fa-instagram'/><span class='inv'/></a></li>
@@ -277,138 +278,112 @@ loadCSS("https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700");l
 <b:section class='main-menu-section' id='main-menu' maxwidgets='1' name='Main Navigation (Edit in Layout)' showaddelement='yes'>
   <b:widget id='LinkList99' locked='false' title='Main Navigation' type='LinkList' version='2' visible='true'>
     <b:widget-settings>
-      <b:widget-setting name='text-9'>_Jobs Preparation</b:widget-setting>
-      <b:widget-setting name='link-9'>https://jobs.ksumanadhikari.com.np</b:widget-setting>
-      <b:widget-setting name='text-8'>Career Building</b:widget-setting>
-      <b:widget-setting name='link-7'>https://ict.ksumanadhikari.com.np</b:widget-setting>
-      <b:widget-setting name='link-8'>#</b:widget-setting>
-      <b:widget-setting name='text-10'>_Computer Operator Manual</b:widget-setting>
-      <b:widget-setting name='link-5'>https://bicte.ksumanadhikari.com.np</b:widget-setting>
-      <b:widget-setting name='link-6'>#</b:widget-setting>
-      <b:widget-setting name='link-3'>https://c.ksumanadhikari.com.np</b:widget-setting>
-      <b:widget-setting name='link-4'>https://</b:widget-setting>
-      <b:widget-setting name='text-1'>Educational</b:widget-setting>
-      <b:widget-setting name='text-0'>Home</b:widget-setting>
-      <b:widget-setting name='text-3'>__C Programming</b:widget-setting>
-      <b:widget-setting name='text-2'>_Programming</b:widget-setting>
-      <b:widget-setting name='text-5'>_BICTE Manual</b:widget-setting>
-      <b:widget-setting name='text-4'>__C++ Programming</b:widget-setting>
-      <b:widget-setting name='text-7'>_ICT ARMY</b:widget-setting>
-      <b:widget-setting name='text-6'>_LLB Manual</b:widget-setting>
+      <b:widget-setting name='text-0'>Home</b:widget-setting><b:widget-setting name='link-0'>/</b:widget-setting>
+      <b:widget-setting name='text-1'>Learning</b:widget-setting><b:widget-setting name='link-1'>#learning</b:widget-setting>
+      <b:widget-setting name='text-2'>_Computer Operator</b:widget-setting><b:widget-setting name='link-2'>https://operator.ksumanadhikari.com.np/</b:widget-setting>
+      <b:widget-setting name='text-3'>_Programming</b:widget-setting><b:widget-setting name='link-3'>#platforms</b:widget-setting>
+      <b:widget-setting name='text-4'>__C Programming</b:widget-setting><b:widget-setting name='link-4'>https://c.ksumanadhikari.com.np/</b:widget-setting>
+      <b:widget-setting name='text-5'>__C++ Programming</b:widget-setting><b:widget-setting name='link-5'>https://cpp.ksumanadhikari.com.np/</b:widget-setting>
+      <b:widget-setting name='text-6'>__PHP Development</b:widget-setting><b:widget-setting name='link-6'>https://php.ksumanadhikari.com.np/</b:widget-setting>
+      <b:widget-setting name='text-7'>__C# Development</b:widget-setting><b:widget-setting name='link-7'>https://csharp.ksumanadhikari.com.np/</b:widget-setting>
+      <b:widget-setting name='text-8'>Services</b:widget-setting><b:widget-setting name='link-8'>https://www.ksumanadhikari.com.np/#services</b:widget-setting>
+      <b:widget-setting name='text-9'>Articles</b:widget-setting><b:widget-setting name='link-9'>https://www.ksumanadhikari.com.np/#articles</b:widget-setting>
+      <b:widget-setting name='text-10'>Media</b:widget-setting><b:widget-setting name='link-10'>https://www.ksumanadhikari.com.np/#media</b:widget-setting>
+      <b:widget-setting name='text-11'>About</b:widget-setting><b:widget-setting name='link-11'>https://www.ksumanadhikari.com.np/#about</b:widget-setting>
+      <b:widget-setting name='text-12'>Connect</b:widget-setting><b:widget-setting name='link-12'>https://www.ksumanadhikari.com.np/#connect</b:widget-setting>
       <b:widget-setting name='sorting'>NONE</b:widget-setting>
-      <b:widget-setting name='link-1'>#</b:widget-setting>
-      <b:widget-setting name='link-2'>#</b:widget-setting>
-      <b:widget-setting name='link-0'>/</b:widget-setting>
-      <b:widget-setting name='link-10'>https://operator.ksumanadhikari.com.np</b:widget-setting>
     </b:widget-settings>
+    <b:includable id='main'><b:include name='content'/></b:includable>
+    <b:includable id='content'><ul class='shnav simple-mainmenu' id='main-menu-nav' role='menubar'><b:loop values='data:links' var='link'><li><a expr:href='data:link.target' role='menuitem'><data:link.name/></a></li></b:loop></ul></b:includable>
+  </b:widget>
+</b:section>
+<b:section class='nav-search-section' id='nav-search' maxwidgets='1' name='Blog Search' showaddelement='yes'>
+  <b:widget id='BlogSearch1' locked='false' title='Search This Blog' type='BlogSearch' version='1'>
     <b:includable id='main'>
-<b:include name='content'/>
-</b:includable>
-    <b:includable id='content'>
-<ul class='shnav simple-mainmenu' id='main-menu-nav' role='menubar'>
-<b:loop values='data:links' var='link'>
-<li><a expr:href='data:link.target' role='menuitem'><data:link.name/></a></li>
-</b:loop>
-</ul>
+    <!-- only display title if it's non-empty -->
+    <b:if cond='data:title != &quot;&quot;'>
+<h2 class='title'><data:title/></h2>
+</b:if>
+<div class='widget-content'>
+<div expr:id='data:widget.instanceId + &quot;_form&quot;'>
+<form class='gsc-search-box' expr:action='data:blog.searchUrl'>
+<b:attr cond='not data:view.isPreview' name='target' value='_top'/>
+<table cellpadding='0' cellspacing='0' class='gsc-search-box'>
+<tbody>
+<tr>
+<td class='gsc-input'>
+<input autocomplete='off' class='gsc-input' expr:value='data:view.isSearch ? data:view.search.query.escaped : &quot;&quot;' name='q' size='10' title='search' type='text'/>
+</td>
+<td class='gsc-search-button'>
+<input class='gsc-search-button' expr:value='data:messages.search' title='search' type='submit'/>
+</td>
+</tr>
+</tbody>
+</table>
+</form>
+</div>
+</div>
+<b:include name='quickedit'/>
 </b:includable>
   </b:widget>
 </b:section>
-<form action='/search' id='search-form' method='get'>
-<table><tbody><tr><td class='search-box'>
-<input id='search-box' name='q' type='text' value='Search...'/>
-<input id='search-button' type='submit' value='Search'/>
-</td></tr></tbody></table>
-</form>
 </nav>
 <div class='clear'/>
 <b:if cond='data:blog.url == data:blog.homepageUrl'>
-<div class='signature-home'>
-<div class='signature-shell'>
-<b:section id='signature-video' maxwidgets='1' name='Featured Video - Edit in Layout' showaddelement='yes'>
-  <b:widget id='HTML21' locked='false' title='Featured Video' type='HTML' version='2' visible='true'>
-    <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<iframe width="100%" height="500px" src="https://www.youtube.com/embed/iQ-XHbzs4Ag?si=3FTFdHC8aMw73LwC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>]]></b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-<b:include name='widget-title'/>
-<div class='widget-content'><data:content/></div>
-</b:includable>
-  </b:widget>
+<div class='signature-home'><div class='signature-shell'>
+<b:section id='signature-message' maxwidgets='1' name='Homepage Hero - Edit in Layout' showaddelement='yes'>
+<b:widget id='HTML22' locked='false' title='Welcome to My Digital Space' type='HTML' version='2' visible='true'><b:widget-settings><b:widget-setting name='content'><![CDATA[<section class="signature-intro" id="about">
+<div class="signature-intro-copy"><span class="signature-kicker">TECHNOLOGY · EDUCATION · KNOWLEDGE · PERSONAL GROWTH</span><h1>Suman Adhikari</h1><h2>Learn. Build. Teach. Grow.</h2>
+<p class="signature-lead">Welcome to my digital space — a place for practical learning, useful ideas, and meaningful work.</p>
+<p>I share knowledge and resources across Information Technology, education, business, and law. Here you can explore tutorials, study materials, projects, learning opportunities, and ideas built to help you move forward.</p>
+<div class="signature-actions"><a class="signature-button" href="#learning">Explore Learning</a><a class="signature-button secondary" href="#connect">Connect with Me</a></div></div>
+<div class="signature-intro-image"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEggOb0YhGTFG0pGdfE_anT6VMKF7Mimoc1ADajwLSteQtSjAlP6SHexw5lgUNwbAfY_PgmDSeoe6kfTakX6AxHoWvb6FZgQ8POTuTpQ9-MPWxF0DoI3CLftoToE8R8leZnfzWJt6E47xPo6AanLFeA-hPc4Uien6ZCATrcPGma7IepQe1_jvlNlwr16mAI=s1600" alt="Suman Adhikari" loading="eager"/></div>
+</section>]]></b:widget-setting></b:widget-settings><b:includable id='main'><div class='widget-content'><data:content/></div></b:includable></b:widget>
 </b:section>
-<b:section id='signature-message' maxwidgets='1' name='Custom Message and Image - Edit in Layout' showaddelement='yes'>
-  <b:widget id='HTML22' locked='false' title='A Message From Suman' type='HTML' version='2' visible='true'>
-    <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<section class="signature-intro">
-  <div class="signature-intro-copy">
-    <span class="signature-kicker">WELCOME TO MY DIGITAL SPACE</span>
-    <h2>Explore. Create. Innovate.</h2>
-
-    <p>Welcome to <b>Ksuman Adhikari</b>! 🚀</p>
-
-    <p>This is my personal platform for sharing knowledge, ideas, and practical resources in Information Technology, programming, computer education, and digital innovation.</p>
-
-    <p>Whether you are learning new technologies, exploring programming, preparing for examinations, or looking for practical solutions to everyday digital challenges, you'll find useful resources here to help you learn, grow, and move forward.</p>
-
-    <p><b>Keep Learning. Keep Building. Keep Growing.</b></p>
-  </div>
-
-  <div class="signature-intro-image">
-    <!-- Replace this placeholder image URL with your own photo/image URL. -->
-
-    <img src="https://blogger.googleusercontent.com/img/a/AVvXsEggOb0YhGTFG0pGdfE_anT6VMKF7Mimoc1ADajwLSteQtSjAlP6SHexw5lgUNwbAfY_PgmDSeoe6kfTakX6AxHoWvb6FZgQ8POTuTpQ9-MPWxF0DoI3CLftoToE8R8leZnfzWJt6E47xPo6AanLFeA-hPc4Uien6ZCATrcPGma7IepQe1_jvlNlwr16mAI=s1600" alt="Add your own image here"/>
-  </div>
-</section>]]></b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-<b:include name='widget-title'/>
-<div class='widget-content'><data:content/></div>
-</b:includable>
-  </b:widget>
+<b:section id='signature-pillars' maxwidgets='1' name='Core Interests and Knowledge Areas' showaddelement='yes'>
+<b:widget id='HTML24' locked='false' title='What I Explore' type='HTML' version='2' visible='true'><b:widget-settings><b:widget-setting name='content'><![CDATA[<section id="learning"><div class="signature-section-heading"><span>LEARNING & KNOWLEDGE</span><h2>Explore What I Work On</h2><p>Four connected areas that shape my learning, teaching, and projects.</p></div>
+<div class="signature-pillars-grid">
+<article class="signature-pillar-card"><span class="signature-card-mark">IT</span><h3>Technology</h3><p>Programming, software development, computer systems, and practical digital skills.</p></article>
+<article class="signature-pillar-card"><span class="signature-card-mark">EDU</span><h3>Education</h3><p>Teaching, curriculum, learning resources, exam preparation, and online classes.</p></article>
+<article class="signature-pillar-card"><span class="signature-card-mark">BIZ</span><h3>Business & Management</h3><p>Management, entrepreneurship, business ideas, and practical professional growth.</p></article>
+<article class="signature-pillar-card"><span class="signature-card-mark">LAW</span><h3>Law & Society</h3><p>Legal education, civic awareness, and the relationship between technology and society.</p></article>
+</div></section>]]></b:widget-setting></b:widget-settings><b:includable id='main'><div class='widget-content'><data:content/></div></b:includable></b:widget>
 </b:section>
-<b:section id='signature-network' maxwidgets='1' name='Other Blogs and Websites - Edit in Layout' showaddelement='yes'>
-  <b:widget id='HTML23' locked='false' title='Explore My Blogs' type='HTML' version='2' visible='true'>
-    <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<div class="signature-network">
-  <div class="signature-section-heading">
-    <span>EXPLORE THE NETWORK</span>
-    <h2>More from Suman</h2>
-    <p>Other Subsidairy</p>
-  </div>
-  <div class="signature-network-grid">
-    <!-- प्रत्येक card को href र img src आफ्नो आवश्यकता अनुसार बदल्नुस्। -->
-    <a class="signature-network-card" href="https://c.ksumanadhikari.com.np/" target="_blank" rel="noopener">
-      <img src="https://placehold.co/640x420/1f2937/ffffff?text=C+Programming" alt="C Programming"/>
-      <span><b>C Programming</b><small>Programming tutorials and notes</small></span>
-    </a>
-    <a class="signature-network-card" href="https://cpp.ksumanadhikari.com.np/" target="_blank" rel="noopener">
-      <img src="https://placehold.co/640x420/263b53/ffffff?text=C%2B%2B" alt="C++ Programming"/>
-      <span><b>C++ Programming</b><small>Concepts, examples and practice</small></span>
-    </a>
-    <a class="signature-network-card" href="https://js.ksumanadhikari.com.np/" target="_blank" rel="noopener">
-      <img src="https://placehold.co/640x420/354b2c/ffffff?text=JavaScript" alt="JavaScript"/>
-      <span><b>JavaScript</b><small>Web development resources</small></span>
-    </a>
-    <a class="signature-network-card" href="https://php.ksumanadhikari.com.np/" target="_blank" rel="noopener">
-      <img src="https://placehold.co/640x420/4b3d68/ffffff?text=PHP" alt="PHP"/>
-      <span><b>PHP Development</b><small>Server-side development</small></span>
-    </a>
-
-  </div>
-</div>]]></b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-<b:include name='widget-title'/>
-<div class='widget-content'><data:content/></div>
-</b:includable>
-  </b:widget>
+<b:section id='signature-services' maxwidgets='1' name='Learning and Services' showaddelement='yes'>
+<b:widget id='HTML25' locked='false' title='Learn and Work With Me' type='HTML' version='2' visible='true'><b:widget-settings><b:widget-setting name='content'><![CDATA[<section id="services"><div class="signature-section-heading"><span>LEARN · COLLABORATE · BUILD</span><h2>Ways to Learn and Work Together</h2><p>Practical learning and digital support, built around real needs.</p></div>
+<div class="signature-services-grid">
+<article class="signature-service-card"><span class="signature-card-mark">01</span><h3>Online Classes</h3><p>Structured lessons, practical demonstrations, and learning resources for students and self-learners.</p><a href="https://www.youtube.com/@ksumanadhikari">Explore learning content →</a></article>
+<article class="signature-service-card"><span class="signature-card-mark">02</span><h3>Mentoring</h3><p>Guidance for learning paths, technology skills, projects, and professional development.</p><a href="mailto:ksumanadhikari@gmail.com">Discuss mentoring →</a></article>
+<article class="signature-service-card"><span class="signature-card-mark">03</span><h3>Freelance & Digital Projects</h3><p>Website, content, and practical technology work for individuals and organizations.</p><a href="mailto:ksumanadhikari@gmail.com">Discuss a project →</a></article>
+</div></section>]]></b:widget-setting></b:widget-settings><b:includable id='main'><div class='widget-content'><data:content/></div></b:includable></b:widget>
 </b:section>
-</div>
-</div>
-</b:if>
+<b:section id='signature-media' maxwidgets='1' name='YouTube and Podcast' showaddelement='yes'>
+<b:widget id='HTML21' locked='false' title='Watch and Listen' type='HTML' version='2' visible='true'><b:widget-settings><b:widget-setting name='content'><![CDATA[<section id="media"><div class="signature-section-heading"><span>VIDEOS & PODCASTS</span><h2>Watch. Listen. Learn.</h2><p>Follow the latest lessons, conversations, and ideas.</p></div>
+<div class="signature-media-grid"><div class="signature-video-card"><h3>Featured on YouTube</h3><div class="signature-video-frame"><iframe loading="lazy" src="https://www.youtube.com/embed/iQ-XHbzs4Ag" title="Suman Adhikari on YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><div class="signature-actions"><a class="signature-button" href="https://www.youtube.com/@ksumanadhikari" target="_blank" rel="noopener">Visit YouTube Channel</a></div></div>
+<div class="signature-podcast-card"><span class="signature-kicker">PODCAST</span><h3>Ideas beyond the screen.</h3><p>Listen to conversations, reflections, and learning-focused audio content on Spotify.</p><a class="signature-podcast-link" href="https://open.spotify.com/show/4OTRpgtT1WYDDjlDZXJXdF" target="_blank" rel="noopener">Listen on Spotify</a></div></div></section>]]></b:widget-setting></b:widget-settings><b:includable id='main'><div class='widget-content'><data:content/></div></b:includable></b:widget>
+</b:section>
+<b:section id='signature-network' maxwidgets='1' name='Learning Websites and Projects' showaddelement='yes'>
+<b:widget id='HTML23' locked='false' title='Explore My Learning Platforms' type='HTML' version='2' visible='true'><b:widget-settings><b:widget-setting name='content'><![CDATA[<section id="platforms"><div class="signature-section-heading"><span>MY DIGITAL LEARNING NETWORK</span><h2>Explore Dedicated Learning Platforms</h2><p>Focused websites for specific subjects and learning paths.</p></div>
+<div class="signature-network-grid">
+<a class="signature-network-card" href="https://operator.ksumanadhikari.com.np/" target="_blank" rel="noopener"><span class="network-mark">CO</span><span><b>Computer Operator</b><small>Exam preparation and computer learning resources</small></span></a>
+<a class="signature-network-card" href="https://php.ksumanadhikari.com.np/" target="_blank" rel="noopener"><span class="network-mark">PHP</span><span><b>PHP Development</b><small>Programming lessons and practical examples</small></span></a>
+<a class="signature-network-card" href="https://csharp.ksumanadhikari.com.np/" target="_blank" rel="noopener"><span class="network-mark">C#</span><span><b>C# Development</b><small>Visual programming and .NET learning</small></span></a>
+<a class="signature-network-card" href="https://c.ksumanadhikari.com.np/" target="_blank" rel="noopener"><span class="network-mark">C</span><span><b>C Programming</b><small>Programming fundamentals and practice</small></span></a>
+</div></section>]]></b:widget-setting></b:widget-settings><b:includable id='main'><div class='widget-content'><data:content/></div></b:includable></b:widget>
+</b:section>
+<b:section id='signature-about-connect' maxwidgets='1' name='About, Vision and Contact' showaddelement='yes'>
+<b:widget id='HTML26' locked='false' title='About and Connect' type='HTML' version='2' visible='true'><b:widget-settings><b:widget-setting name='content'><![CDATA[<section><div class="signature-section-heading"><span>THE PURPOSE</span><h2>Why This Platform Exists</h2></div>
+<div class="signature-about-grid"><div class="signature-about-card"><h3>My Mission</h3><p>To make useful knowledge easier to access through clear explanations, practical resources, teaching, and technology.</p></div>
+<div class="signature-about-card"><h3>My Vision</h3><p>To build a connected learning and knowledge platform where people can learn skills, explore ideas, and turn knowledge into meaningful work.</p></div></div></section>
+<section class="signature-connect" id="connect"><div><h2>Have an idea or want to collaborate?</h2><p>For classes, mentoring, freelance projects, or general enquiries, get in touch.</p></div>
+<div class="signature-social-links"><a href="mailto:ksumanadhikari@gmail.com">Email</a><a href="https://www.youtube.com/@ksumanadhikari" target="_blank" rel="noopener">YouTube</a><a href="https://www.facebook.com/profile.php?id=61595246783060" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/ksumanadhikari/" target="_blank" rel="noopener">Instagram</a><a href="https://www.linkedin.com/in/ksumanadhikari/" target="_blank" rel="noopener">LinkedIn</a></div></section>]]></b:widget-setting></b:widget-settings><b:includable id='main'><div class='widget-content'><data:content/></div></b:includable></b:widget>
+</b:section>
+</div></div></b:if>
 <div class='clear'/>
 <div class='clear'/>
 <b:section class='banner section' id='banner' maxwidgets='1' showaddelement='yes'/>
 <div class='clear'/>
+<b:if cond='data:blog.url == data:blog.homepageUrl'><div class='signature-articles-heading' id='articles'><span>THE LATEST</span><h2>Articles &amp; Learning Resources</h2><p>Browse recent posts, study notes, tutorials, and practical guides.</p></div></b:if>
 <div id='content-wrapper' itemscope='itemscope' itemtype='https://schema.org/Blog' role='main'>
 <div id='post-wrapper'>
 <div class='post-inner'>
@@ -1746,34 +1721,7 @@ $(this).show().attr('src', ava.replace(/\/s[0-9]+(\-c)?\//,"/s55-c/"));
 </a>
 </b:includable>
   </b:widget>
-  <b:widget id='BlogSearch1' locked='false' title='Search This Blog' type='BlogSearch' version='1'>
-    <b:includable id='main'>
-    <!-- only display title if it's non-empty -->
-    <b:if cond='data:title != &quot;&quot;'>
-<h2 class='title'><data:title/></h2>
-</b:if>
-<div class='widget-content'>
-<div expr:id='data:widget.instanceId + &quot;_form&quot;'>
-<form class='gsc-search-box' expr:action='data:blog.searchUrl'>
-<b:attr cond='not data:view.isPreview' name='target' value='_top'/>
-<table cellpadding='0' cellspacing='0' class='gsc-search-box'>
-<tbody>
-<tr>
-<td class='gsc-input'>
-<input autocomplete='off' class='gsc-input' expr:value='data:view.isSearch ? data:view.search.query.escaped : &quot;&quot;' name='q' size='10' title='search' type='text'/>
-</td>
-<td class='gsc-search-button'>
-<input class='gsc-search-button' expr:value='data:messages.search' title='search' type='submit'/>
-</td>
-</tr>
-</tbody>
-</table>
-</form>
-</div>
-</div>
-<b:include name='quickedit'/>
-</b:includable>
-  </b:widget>
+
   <b:widget id='ReportAbuse1' locked='false' title='' type='ReportAbuse' version='1'>
     <b:includable id='main'>
 <b:include name='reportAbuse'/>
