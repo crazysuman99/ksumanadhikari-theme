@@ -16,7 +16,7 @@ a{color:var(--blue);text-decoration:none}a:hover{color:var(--green)}
 #nav .main-menu-section{display:block!important;flex:1 1 auto;width:auto!important;min-width:0}#nav .widget{margin:0!important}
 #nav .shnav{display:flex;flex-wrap:wrap;align-items:center;float:none!important;width:100%;margin:0!important;padding:0!important;list-style:none!important}
 #nav .shnav>li{position:relative;float:none!important;margin:0!important}
-#nav .shnav>li>a{display:block;height:auto!important;min-height:54px;padding:0 13px!important;line-height:54px!important;color:var(--ink)!important;font-size:13px;font-weight:700;text-transform:none!important;border-bottom:3px solid transparent}
+#nav .shnav>li>a{display:block;height:auto!important;min-height:56px;padding:0 15px!important;line-height:56px!important;color:var(--ink)!important;font-size:15px!important;font-weight:700;text-transform:none!important;border-bottom:3px solid transparent}
 #nav .shnav>li>a:hover,#nav .shnav>li.hover>a{color:var(--blue)!important;background:#f8faff!important;border-bottom-color:var(--blue)}
 #nav .shnav li ul{display:none;position:absolute;top:100%;left:0;min-width:230px;margin:0!important;padding:7px!important;list-style:none!important;background:#fff!important;border:1px solid var(--line);border-radius:10px;box-shadow:0 14px 32px rgba(20,33,61,.13);z-index:2000}
 #nav .shnav li:hover>ul,#nav .shnav li.hover>ul{display:block}
@@ -108,7 +108,7 @@ body.item .post-body a{color:var(--blue);text-decoration:underline;text-underlin
 #footer-wrapper .widget-content{color:#cbd5e1!important;font-size:13px;line-height:1.8}#footer-wrapper .widget-content li{border-color:rgba(255,255,255,.12)!important}
 #footer-credit{background:#0b1324!important;color:#cbd5e1!important;padding:16px!important;text-align:center}#footer-credit a{color:#fff!important}
 @media(max-width:980px){
-#nav{padding:8px 16px!important}#nav .nav-search-section{flex-basis:210px;width:210px}#nav .shnav>li>a{padding:0 9px!important;font-size:12px}
+#nav{padding:8px 16px!important}#nav .nav-search-section{flex-basis:210px;width:210px}#nav .shnav>li>a{padding:0 10px!important;font-size:14px!important}
 .signature-pillars-grid,.signature-network-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#content-wrapper{gap:18px}
 }
 @media(max-width:700px){
