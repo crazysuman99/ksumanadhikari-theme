@@ -16,7 +16,6 @@
   <meta expr:content='data:blog.title' property='og:site_name'/>
   <meta expr:content='data:blog.pageTitle' property='og:title'/>
   <meta expr:content='data:blog.url' property='og:url'/>
-  <meta content='width=device-width, initial-scale=1' name='viewport'/>
 
   <!-- Modular CSS: published from the main branch through jsDelivr. -->
   <link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/assets/css/tokens.css' rel='stylesheet'/>
