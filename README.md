@@ -49,7 +49,7 @@ The search field uses Blogger's native **BlogSearch** gadget.
 
 ## Asset delivery
 
-CSS and JavaScript are served from this repository through jsDelivr. The theme currently uses the `main` branch; pin asset URLs to a tested commit SHA for a production release.
+CSS and JavaScript are served from this repository through jsDelivr. Theme asset URLs are pinned to tested commit SHAs so a future asset change can be deliberately versioned by updating its CDN reference in `theme.xml`.
 
 ## Project status
 
