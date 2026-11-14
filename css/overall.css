@@ -1297,3 +1297,16 @@ body.item .authorboxfull .authorsocial a:hover{
   .signature-video-footnote{align-items:flex-start;flex-direction:column;gap:3px}
 }
 
+/* Individual post: make the lead/thumbnail image span the full content width */
+body.item .post-body.entry-content > img:first-child,
+body.item .post-body.entry-content > a:first-child img,
+body.item .post-body.entry-content > .separator:first-child img,
+body.item .post-body.entry-content > div:first-child.separator img {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 16px auto 22px !important;
+  object-fit: contain;
+  box-sizing: border-box;
+}
