@@ -7,7 +7,6 @@
       xmlns:b='http://www.google.com/2005/gml/b'
       xmlns:data='http://www.google.com/2005/gml/data'
       xmlns:expr='http://www.google.com/2005/gml/expr'>
-
 <head>
   <meta content='width=device-width, initial-scale=1, viewport-fit=cover' name='viewport'/>
   <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
@@ -17,35 +16,45 @@
   <meta expr:content='data:blog.title' property='og:site_name'/>
   <meta expr:content='data:blog.pageTitle' property='og:title'/>
   <meta expr:content='data:blog.url' property='og:url'/>
+  <meta content='width=device-width, initial-scale=1' name='viewport'/>
 
-  <!-- External design system: stylesheets will be added as separate files in assets/css/. -->
+  <!-- Modular CSS: published from the main branch through jsDelivr. -->
   <link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/assets/css/tokens.css' rel='stylesheet'/>
   <link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/assets/css/base.css' rel='stylesheet'/>
   <link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/assets/css/layout.css' rel='stylesheet'/>
   <link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/assets/css/components.css' rel='stylesheet'/>
   <link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/assets/css/blog.css' rel='stylesheet'/>
+  <link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/assets/css/gadgets.css' rel='stylesheet'/>
   <link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/assets/css/responsive.css' rel='stylesheet'/>
 
   <b:skin><![CDATA[
-    /* Critical fallback only. The complete design system lives in external CSS files. */
+    /* Critical fallback only. Full design system is maintained in modular CSS. */
     body { margin: 0; font-family: Arial, sans-serif; }
     img { max-width: 100%; height: auto; }
   ]]></b:skin>
 </head>
-
 <body>
   <div class='site-shell' id='site-shell'>
 
-    <!-- 1. LANDING / BRAND INTRO -->
+    <!-- 1. LANDING PAGE: homepage-only editable hero gadget. -->
+    <b:if cond='data:view.isHomepage'>
+      <section class='landing-hero' id='landing-hero'>
+        <div class='container landing-hero__inner'>
+          <b:section id='landingPage' class='landing-page' maxwidgets='3' showaddelement='yes'>
+            <b:widget id='HTML1' type='HTML' title='Landing Page / Hero' locked='false' version='2'/>
+          </b:section>
+        </div>
+      </section>
+    </b:if>
+
+    <!-- 2. NAVIGATION: LinkList menu + Blogger BlogSearch gadget. -->
     <header class='site-header' id='top'>
-      <div class='site-header__inner'>
+      <div class='container site-header__inner'>
         <div class='site-brand'>
           <b:section id='siteBrand' class='site-brand__section' maxwidgets='1' showaddelement='yes'>
             <b:widget id='Header1' type='Header' title='Site Header' locked='true' version='2'/>
           </b:section>
         </div>
-
-        <!-- 2. NAVIGATION: configure menu items through Blogger LinkList gadget. -->
         <div class='primary-navigation' id='primary-navigation'>
           <button aria-controls='primary-navigation-panel' aria-expanded='false' aria-label='Open navigation' class='nav-toggle' type='button'>
             <span></span><span></span><span></span>
@@ -64,75 +73,68 @@
       </div>
     </header>
 
-    <!-- Homepage-only landing page and personal welcome message. -->
+    <!-- 4. MESSAGE: profile photo + introduction are editable in the HTML gadget. -->
     <b:if cond='data:view.isHomepage'>
-      <main class='homepage-main' id='homepage-main'>
-        <section class='landing-hero' id='landing-hero'>
-          <b:section id='landingPage' class='landing-page' maxwidgets='3' showaddelement='yes'>
-            <b:widget id='HTML1' type='HTML' title='Landing Page / Hero' locked='false' version='2'/>
-          </b:section>
-        </section>
-
-        <!-- 4. MESSAGE: add profile image and message using an HTML gadget. -->
-        <section class='welcome-message' id='welcome-message'>
+      <section class='welcome-message' id='welcome-message'>
+        <div class='container'>
           <b:section id='welcomeMessage' class='welcome-message__section' maxwidgets='2' showaddelement='yes'>
-            <b:widget id='HTML2' type='HTML' title='Welcome Message' locked='false' version='2'/>
+            <b:widget id='HTML2' type='HTML' title='Welcome Message / Profile' locked='false' version='2'/>
           </b:section>
-        </section>
-
-        <div class='homepage-content-grid'>
-          <div class='homepage-primary-column'>
-            <section class='featured-content' id='featured-content'>
-              <b:section id='featuredContent' class='featured-content__section' maxwidgets='3' showaddelement='yes'>
-                <b:widget id='HTML3' type='HTML' title='Featured Content' locked='false' version='2'/>
-              </b:section>
-            </section>
-          </div>
-          <aside class='site-sidebar site-sidebar--home' id='home-sidebar'>
-            <b:section id='sidebarHome' class='sidebar-widgets' maxwidgets='12' showaddelement='yes'/>
-          </aside>
         </div>
-      </main>
-    <b:else/>
-      <!-- 8. BLOG POSTS / STATIC PAGES -->
-      <main class='content-layout' id='content-layout'>
-        <div class='main-column' id='main-column'>
-          <b:section id='mainContent' class='main-content' showaddelement='no'>
-            <b:widget id='Blog1' type='Blog' title='Blog Posts' locked='true' version='2'/>
-          </b:section>
-
-          <!-- 7. GADGETS INSIDE / BELOW INDIVIDUAL POSTS -->
-          <b:if cond='data:view.isPost'>
-            <section class='post-extras' id='post-extras'>
-              <b:section id='insidePostGadgets' class='inside-post-gadgets' maxwidgets='8' showaddelement='yes'/>
-            </section>
-          </b:if>
-        </div>
-
-        <!-- 3. SIDEBAR -->
-        <aside class='site-sidebar' id='site-sidebar'>
-          <b:section id='sidebarMain' class='sidebar-widgets' maxwidgets='12' showaddelement='yes'/>
-        </aside>
-      </main>
+      </section>
     </b:if>
 
-    <!-- 5. SUBSIDIARY WEBSITES / NETWORK -->
+    <!-- Main feed is present on homepage and archive/search pages too. -->
+    <main class='content-layout container' id='content-layout'>
+      <div class='main-column' id='main-column'>
+        <b:if cond='data:view.isHomepage'>
+          <section class='featured-content' id='featured-content'>
+            <b:section id='featuredContent' class='featured-content__section' maxwidgets='3' showaddelement='yes'>
+              <b:widget id='HTML3' type='HTML' title='Featured Content' locked='false' version='2'/>
+            </b:section>
+          </section>
+        </b:if>
+
+        <!-- 8. BLOG POSTS: Blogger Blog widget owns post markup and pagination. -->
+        <b:section id='mainContent' class='main-content' showaddelement='no'>
+          <b:widget id='Blog1' type='Blog' title='Blog Posts' locked='true' version='2'/>
+        </b:section>
+
+        <!-- 7. GADGETS INSIDE / BELOW INDIVIDUAL POSTS. -->
+        <b:if cond='data:view.isPost'>
+          <section class='post-extras' id='post-extras'>
+            <b:section id='insidePostGadgets' class='inside-post-gadgets' maxwidgets='8' showaddelement='yes'/>
+          </section>
+        </b:if>
+      </div>
+
+      <!-- 3. SIDEBAR: independently editable Blogger gadgets. -->
+      <aside class='site-sidebar' id='site-sidebar'>
+        <b:section id='sidebarMain' class='sidebar-widgets' maxwidgets='12' showaddelement='yes'/>
+      </aside>
+    </main>
+
+    <!-- 5. SUBSIDIARY SITES / DIGITAL NETWORK. -->
     <section class='subsidiary-section' id='subsidiary-section'>
-      <b:section id='subsidiarySites' class='subsidiary-sites' maxwidgets='4' showaddelement='yes'>
-        <b:widget id='HTML4' type='HTML' title='Other Websites / Subsidiary' locked='false' version='2'/>
-      </b:section>
+      <div class='container'>
+        <b:section id='subsidiarySites' class='subsidiary-sites' maxwidgets='4' showaddelement='yes'>
+          <b:widget id='HTML4' type='HTML' title='Other Websites / Subsidiary' locked='false' version='2'/>
+        </b:section>
+      </div>
     </section>
 
-    <!-- 6. POST LABELS / CATEGORIES -->
+    <!-- 6. POST LABELS / CATEGORIES. -->
     <section class='category-section' id='category-section'>
-      <b:section id='postCategories' class='post-categories' maxwidgets='2' showaddelement='yes'>
-        <b:widget id='Label1' type='Label' title='Explore by Category' locked='false' version='2'/>
-      </b:section>
+      <div class='container'>
+        <b:section id='postCategories' class='post-categories' maxwidgets='2' showaddelement='yes'>
+          <b:widget id='Label1' type='Label' title='Explore by Category' locked='false' version='2'/>
+        </b:section>
+      </div>
     </section>
 
-    <!-- 9. FOOTER / CREDIT -->
+    <!-- 9. FOOTER / CREDIT. -->
     <footer class='site-footer' id='site-footer'>
-      <div class='site-footer__inner'>
+      <div class='container site-footer__inner'>
         <b:section id='footerMain' class='footer-main' maxwidgets='6' showaddelement='yes'>
           <b:widget id='HTML5' type='HTML' title='Footer Information' locked='false' version='2'/>
         </b:section>
@@ -144,8 +146,8 @@
     </footer>
   </div>
 
-  <!-- JavaScript is intentionally kept outside the XML theme and will be added as modular files. -->
-  <script src='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/assets/js/vendor/jquery.min.js' defer='defer'></script>
+  <!-- jQuery and modular behavior files are hosted separately on jsDelivr. -->
+  <script src='https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js' defer='defer'></script>
   <script src='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/assets/js/core/dom-ready.js' defer='defer'></script>
   <script src='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/assets/js/modules/navigation.js' defer='defer'></script>
   <script src='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/assets/js/modules/search.js' defer='defer'></script>
