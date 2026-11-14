@@ -114,7 +114,7 @@
         <div class='contact-actions'><a class='button button-light' href='mailto:ksumanadhikari@gmail.com'>Send me an email ↗</a>
           <b:section class='social-edit-zone editable-zone' id='social_links' maxwidgets='1' name='10 · Social links (edit this)' showaddelement='yes'>
             <b:widget id='Text8' locked='false' title='Social links (edit this)' type='Text' version='1'>
-              <b:widget-settings><b:widget-setting name='content'>&lt;div class="social-links"&gt;&lt;a href="https://www.youtube.com/"&gt;YouTube ↗&lt;/a&gt;&lt;a href="https://www.facebook.com/"&gt;Facebook ↗&lt;/a&gt;&lt;a href="https://www.tiktok.com/"&gt;TikTok ↗&lt;/a&gt;&lt;a href="https://www.linkedin.com/"&gt;LinkedIn ↗&lt;/a&gt;&lt;/div&gt;</b:widget-setting></b:widget-settings>
+              <b:widget-settings><b:widget-setting name='content'>&lt;div class="social-links"&gt;&lt;a href="https://www.youtube.com/@ksumanadhikari"&gt;YouTube ↗&lt;/a&gt;&lt;a href="https://www.facebook.com/profile.php?id=61595246783060"&gt;Facebook ↗&lt;/a&gt;&lt;a href="https://www.tiktok.com/@ksumanadhikari"&gt;TikTok ↗&lt;/a&gt;&lt;a href="https://www.linkedin.com/in/ksumanadhikari/"&gt;LinkedIn ↗&lt;/a&gt;&lt;a href="https://x.com/ksumanadhikari"&gt;X ↗&lt;/a&gt;&lt;a href="https://www.instagram.com/ksumanadhikari/"&gt;Instagram ↗&lt;/a&gt;&lt;/div&gt;</b:widget-setting></b:widget-settings>
               <b:includable id='main'><div class='widget-content'><data:content/></div></b:includable>
             </b:widget>
           </b:section>
