@@ -133,3 +133,16 @@ body{font-size:15px!important}.signature-intro{padding:17px!important}.signature
 #main .blog-posts.all-posts-one-page{grid-template-columns:1fr!important;gap:15px!important}#main .blog-posts.all-posts-one-page>.post-outer>.post{padding:9px!important}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* Consistent brand accents for legacy theme controls and article utilities. */
+a:link{color:var(--blue)}a:visited{color:#475569}a:link:hover,a:visited:hover{color:var(--green)}
+.btn,.button a,.demo,.download,#search-button,.post-share-buttons a{background:var(--blue)!important;border-color:var(--blue)!important;color:#fff!important}
+.btn:hover,.button a:hover,.demo:hover,.download:hover,#search-button:hover,.post-share-buttons a:hover{background:var(--green)!important;border-color:var(--green)!important;color:#fff!important}
+#back-to-simple{background:var(--blue)!important;color:#fff!important}
+#blog-pager a,.blog-pager a{border-color:var(--line)!important;color:var(--blue)!important}
+#blog-pager a:hover,.blog-pager a:hover{background:var(--blue)!important;color:#fff!important}
+.post-labels a,.post-labels span{background:#eff6ff!important;border-color:#dbeafe!important;color:#1d4ed8!important}
+.post-labels a:hover{background:#ecfdf5!important;border-color:#a7f3d0!important;color:#0f766e!important}
+#comments h4,.comments h4{color:var(--ink)!important;border-bottom-color:var(--line)!important}
+#comments .comment-actions a,.comment-actions a{color:var(--blue)!important}
+#nav .menu-trigger.active{background:var(--blue)!important}
