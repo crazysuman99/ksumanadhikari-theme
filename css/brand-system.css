@@ -146,3 +146,14 @@ a:link{color:var(--blue)}a:visited{color:#475569}a:link:hover,a:visited:hover{co
 #comments h4,.comments h4{color:var(--ink)!important;border-bottom-color:var(--line)!important}
 #comments .comment-actions a,.comment-actions a{color:var(--blue)!important}
 #nav .menu-trigger.active{background:var(--blue)!important}
+
+
+/* Desktop navigation: keep the search box on the far right of the menu row. */
+@media (min-width:701px){
+  #nav{display:flex!important;flex-wrap:nowrap!important;align-items:center!important;justify-content:space-between!important;gap:12px!important}
+  #nav .main-menu-section{flex:1 1 auto!important;width:auto!important;min-width:0!important}
+  #nav .shnav{display:flex!important;flex-wrap:nowrap!important;align-items:center!important;white-space:nowrap!important}
+  #nav .shnav>li{flex:0 0 auto!important}
+  #nav .nav-search-section{display:block!important;flex:0 0 235px!important;width:235px!important;max-width:235px!important;margin:0 0 0 auto!important}
+  #nav .nav-search-section form,#nav .nav-search-section .widget-content{width:100%!important}
+}
