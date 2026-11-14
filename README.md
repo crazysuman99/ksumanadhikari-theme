@@ -57,7 +57,7 @@ The CDN URLs currently use the `main` branch. For production stability, pin thes
 ## Development notes
 
 - Keep CSS and JavaScript in their respective folders.
-- Update CDN paths in `theme.xml) whenever an asset is renamed or moved.
+- Update CDN paths in `theme.xml` whenever an asset is renamed or moved.
 - Test changes on a backup/test blog before applying them to the live site.
 - Do not commit private credentials, API keys, or account tokens.
 
