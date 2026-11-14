@@ -344,7 +344,7 @@ loadCSS("https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700");l
 <b:widget id='HTML24' locked='false' title='What I Explore' type='HTML' version='2' visible='true'><b:widget-settings><b:widget-setting name='content'><![CDATA[<section id="learning"><div class="signature-section-heading"><span>LEARNING & KNOWLEDGE</span><h2>Explore What I Work On</h2><p>Four connected areas that shape my learning, teaching, and projects.</p></div>
 <div class="signature-pillars-grid">
 <article class="signature-pillar-card"><span class="signature-card-mark">IT</span><h3>Technology</h3><p>Programming, software development, computer systems, and practical digital skills.</p></article>
-<article class="signature-pillar-card"><span class="signature-card-mark">JUDO</span><h3>Judo &amp; Discipline</h3><p>Judo, consistency, self-discipline, resilience, and continuous personal development.</p></article>
+<article class="signature-pillar-card"><span class="signature-card-mark">JUDO</span><h3>Judo & Discipline</h3><p>Judo, consistency, self-discipline, resilience, and continuous personal development.</p></article>
 <article class="signature-pillar-card"><span class="signature-card-mark">BIZ</span><h3>Business & Management</h3><p>Management, entrepreneurship, business ideas, and practical professional growth.</p></article>
 <article class="signature-pillar-card"><span class="signature-card-mark">LAW</span><h3>Law & Society</h3><p>Legal education, civic awareness, and the relationship between technology and society.</p></article>
 </div></section>]]></b:widget-setting></b:widget-settings><b:includable id='main'><div class='widget-content'><data:content/></div></b:includable></b:widget>
