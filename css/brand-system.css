@@ -170,3 +170,13 @@ a:link{color:var(--blue)}a:visited{color:#475569}a:link:hover,a:visited:hover{co
   #nav>.nav-search-section{grid-area:search!important;display:block!important;width:235px!important;max-width:235px!important;min-width:235px!important;margin:0!important}
   #nav>.nav-search-section .widget,#nav>.nav-search-section .widget-content,#nav>.nav-search-section form{width:100%!important}
 }
+
+/* Match the full-width Blogger header banner used on the C subdomain. */
+#header-wrapper{width:100%!important;max-width:1180px!important;box-sizing:border-box!important}
+#header-wrapper .header.section,
+#header-wrapper #Header1,
+#header-wrapper #header-inner,
+#header-wrapper #header-inner>a{display:block!important;width:100%!important;max-width:none!important;min-width:0!important;box-sizing:border-box!important}
+#header-wrapper #Header1 img#Header1_headerimg,
+#header-wrapper img#Header1_headerimg,
+#header-wrapper #header img{display:block!important;width:100%!important;max-width:100%!important;min-width:0!important;height:auto!important;max-height:none!important;object-fit:fill!important;margin:0!important}
