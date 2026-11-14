@@ -26,6 +26,10 @@ Executive Personal Brand: authority, credibility, clarity and restrained visual 
 - `assets/js/modules/` — navigation, search, post cards, sidebar and post enhancements
 - `assets/js/app.js` — module initialization
 
+## Homepage gadget content
+
+Copy-ready HTML for the **Landing Page / Hero** and **Welcome Message / Profile** gadgets is in `docs/homepage-gadgets.html`. Paste each marked block into its matching HTML gadget under Blogger **Layout**. Replace `YOUR-PROFILE-IMAGE-URL` with the direct public URL of your profile photo before saving. The hero includes a link to the Computer Operator learning site; update it if that destination changes.
+
 ## External assets
 
 CSS and JavaScript are loaded from jsDelivr using the repository's `main` branch. jQuery 3.7.1 is loaded from jsDelivr npm.
