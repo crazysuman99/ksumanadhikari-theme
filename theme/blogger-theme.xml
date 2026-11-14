@@ -93,8 +93,8 @@
       <section class='section-wrap content-section' id='media'>
         <div class='section-heading'><div><span class='eyebrow'>WATCH · LISTEN · THINK</span><h2>Ideas beyond the <em>page.</em></h2></div><span class='section-index'>05 — MEDIA</span></div>
         <div class='media-grid'>
-          <div class='media-card video-card'><div class='media-topline'><span>YOUTUBE / VIDEO</span><span>▶</span></div><div class='video-frame'><div class='video-placeholder'><span class='play-mark'>▶</span><strong>Add a YouTube video using Blogger Layout</strong><small>Edit the Media / YouTube gadget below.</small></div></div><div class='media-footer'><a href='https://www.youtube.com/' target='_blank'>Visit YouTube channel ↗</a></div></div>
-          <div class='media-card podcast-card'><div class='media-topline'><span>PODCAST / AUDIO</span><span>◖))</span></div><div class='podcast-art'><span class='sound-wave'>▂ ▅ ▇ ▃ ▆ ▂</span><h3>Listen to<br/><em>the ideas.</em></h3><p>Conversations, reflections, and things worth thinking about.</p></div><div class='podcast-embed'><p>Use the Podcast gadget in Blogger Layout to add your player.</p></div></div>
+          <div class='media-card video-card'><div class='media-topline'><span>YOUTUBE / VIDEO</span><span>▶</span></div><div class='video-frame'><div class='video-placeholder'><span class='play-mark'>▶</span><strong>Add a YouTube video using Blogger Layout</strong><small>Edit the Media / YouTube gadget below.</small></div></div><div class='media-footer'><a href='https://www.youtube.com/@ksumanadhikari' target='_blank'>Visit YouTube channel ↗</a></div></div>
+          <div class='media-card podcast-card'><div class='media-topline'><span>PODCAST / AUDIO</span><span>◖))</span></div><div class='podcast-art'><span class='sound-wave'>▂ ▅ ▇ ▃ ▆ ▂</span><h3>Listen to<br/><em>the ideas.</em></h3><p>Conversations, reflections, and things worth thinking about.</p></div><div class='podcast-embed'><iframe title='Ksumana Adhikari podcast on Spotify' src='https://open.spotify.com/embed/show/4OTRpgtT1WYDDjlDZXJXdF' width='100%' height='152' frameborder='0' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe><a class='media-footer' href='https://open.spotify.com/show/4OTRpgtT1WYDDjlDZXJXdF' target='_blank' rel='noopener'>Listen on Spotify ↗</a></div></div>
         </div>
         <b:section class='media-edit-zone' id='media_gadgets' maxwidgets='2' name='08 · YouTube and podcast embeds' showaddelement='yes'/>
       </section>
@@ -111,7 +111,7 @@
             <b:includable id='main'><div class='widget-content'><data:content/></div></b:includable>
           </b:widget>
         </b:section>
-        <div class='contact-actions'><a class='button button-light' href='mailto:hello@example.com'>Send me an email ↗</a>
+        <div class='contact-actions'><a class='button button-light' href='mailto:ksumanadhikari@gmail.com'>Send me an email ↗</a>
           <b:section class='social-edit-zone editable-zone' id='social_links' maxwidgets='1' name='10 · Social links (edit this)' showaddelement='yes'>
             <b:widget id='Text8' locked='false' title='Social links (edit this)' type='Text' version='1'>
               <b:widget-settings><b:widget-setting name='content'>&lt;div class="social-links"&gt;&lt;a href="https://www.youtube.com/"&gt;YouTube ↗&lt;/a&gt;&lt;a href="https://www.facebook.com/"&gt;Facebook ↗&lt;/a&gt;&lt;a href="https://www.tiktok.com/"&gt;TikTok ↗&lt;/a&gt;&lt;a href="https://www.linkedin.com/"&gt;LinkedIn ↗&lt;/a&gt;&lt;/div&gt;</b:widget-setting></b:widget-settings>
