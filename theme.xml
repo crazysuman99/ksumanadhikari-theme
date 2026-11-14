@@ -81,7 +81,7 @@
 /* CSS moved to external skin-base.css. Keep this Blogger skin block. */
 ]]></b:skin>
 <!-- Externalized original b:skin CSS; upload skin-base.css to /css/ in GitHub -->
-<link href='https://cdn.jsdelivr.net/gh/crazysuman99/blogger-theme@main/css/skin-base.css' rel='stylesheet' type='text/css'/>
+<link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/css/skin-base.css' rel='stylesheet' type='text/css'/>
 
 
 <b:template-skin>
@@ -121,12 +121,12 @@ body#layout #banner .add_widget,#layout #banner2 .add_widget{width:80%;margin:5p
 ]]>
 </b:template-skin>
 <!-- External overall CSS via jsDelivr -->
-<link href='https://cdn.jsdelivr.net/gh/crazysuman99/blogger-theme@1e5cce9c5a96990c102a3c1c79bb765aa050475c/css/overall.css' rel='stylesheet' type='text/css'/>
+<link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/css/overall.css' rel='stylesheet' type='text/css'/>
 <!-- Dedicated homepage/archive post card styles -->
-<link href='https://cdn.jsdelivr.net/gh/crazysuman99/blogger-theme@563c33f3ec73565cb41a8548444b98d8cafc87f3/css/post-cards.css' rel='stylesheet' type='text/css'/>
+<link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/css/post-cards.css' rel='stylesheet' type='text/css'/>
 
 <script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'/>
-<script defer='defer' src='https://cdn.jsdelivr.net/gh/crazysuman99/blogger-theme@main/js/theme.js'/>
+<script defer='defer' src='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/js/theme.js'/>
 <script type='text/javascript'>
 //<![CDATA[
 //CSS Ready
