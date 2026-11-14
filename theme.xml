@@ -281,16 +281,17 @@ loadCSS("https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700");l
       <b:widget-setting name='text-0'>Home</b:widget-setting><b:widget-setting name='link-0'>/</b:widget-setting>
       <b:widget-setting name='text-1'>Learning</b:widget-setting><b:widget-setting name='link-1'>#learning</b:widget-setting>
       <b:widget-setting name='text-2'>_Computer Operator</b:widget-setting><b:widget-setting name='link-2'>https://operator.ksumanadhikari.com.np/</b:widget-setting>
-      <b:widget-setting name='text-3'>_Programming</b:widget-setting><b:widget-setting name='link-3'>#platforms</b:widget-setting>
-      <b:widget-setting name='text-4'>__C Programming</b:widget-setting><b:widget-setting name='link-4'>https://c.ksumanadhikari.com.np/</b:widget-setting>
-      <b:widget-setting name='text-5'>__C++ Programming</b:widget-setting><b:widget-setting name='link-5'>https://cpp.ksumanadhikari.com.np/</b:widget-setting>
-      <b:widget-setting name='text-6'>__PHP Development</b:widget-setting><b:widget-setting name='link-6'>https://php.ksumanadhikari.com.np/</b:widget-setting>
-      <b:widget-setting name='text-7'>__C# Development</b:widget-setting><b:widget-setting name='link-7'>https://csharp.ksumanadhikari.com.np/</b:widget-setting>
-      <b:widget-setting name='text-8'>Services</b:widget-setting><b:widget-setting name='link-8'>https://www.ksumanadhikari.com.np/#services</b:widget-setting>
-      <b:widget-setting name='text-9'>Articles</b:widget-setting><b:widget-setting name='link-9'>https://www.ksumanadhikari.com.np/#articles</b:widget-setting>
-      <b:widget-setting name='text-10'>Media</b:widget-setting><b:widget-setting name='link-10'>https://www.ksumanadhikari.com.np/#media</b:widget-setting>
-      <b:widget-setting name='text-11'>About</b:widget-setting><b:widget-setting name='link-11'>https://www.ksumanadhikari.com.np/#about</b:widget-setting>
-      <b:widget-setting name='text-12'>Connect</b:widget-setting><b:widget-setting name='link-12'>https://www.ksumanadhikari.com.np/#connect</b:widget-setting>
+      <b:widget-setting name='text-3'>_BICTE Learning</b:widget-setting><b:widget-setting name='link-3'>https://bicte.ksumanadhikari.com.np/</b:widget-setting>
+      <b:widget-setting name='text-4'>_Programming</b:widget-setting><b:widget-setting name='link-4'>#platforms</b:widget-setting>
+      <b:widget-setting name='text-5'>__C Programming</b:widget-setting><b:widget-setting name='link-5'>https://c.ksumanadhikari.com.np/</b:widget-setting>
+      <b:widget-setting name='text-6'>__C++ Programming</b:widget-setting><b:widget-setting name='link-6'>https://cpp.ksumanadhikari.com.np/</b:widget-setting>
+      <b:widget-setting name='text-7'>__PHP Development</b:widget-setting><b:widget-setting name='link-7'>https://php.ksumanadhikari.com.np/</b:widget-setting>
+      <b:widget-setting name='text-8'>__C# Development</b:widget-setting><b:widget-setting name='link-8'>https://csharp.ksumanadhikari.com.np/</b:widget-setting>
+      <b:widget-setting name='text-9'>Services</b:widget-setting><b:widget-setting name='link-9'>https://www.ksumanadhikari.com.np/#services</b:widget-setting>
+      <b:widget-setting name='text-10'>Articles</b:widget-setting><b:widget-setting name='link-10'>https://www.ksumanadhikari.com.np/#articles</b:widget-setting>
+      <b:widget-setting name='text-11'>Media</b:widget-setting><b:widget-setting name='link-11'>https://www.ksumanadhikari.com.np/#media</b:widget-setting>
+      <b:widget-setting name='text-12'>About</b:widget-setting><b:widget-setting name='link-12'>https://www.ksumanadhikari.com.np/#about</b:widget-setting>
+      <b:widget-setting name='text-13'>Connect</b:widget-setting><b:widget-setting name='link-13'>https://www.ksumanadhikari.com.np/#connect</b:widget-setting>
       <b:widget-setting name='sorting'>NONE</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'><b:include name='content'/></b:includable>
