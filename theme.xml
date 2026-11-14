@@ -81,7 +81,7 @@
 /* CSS moved to external skin-base.css. Keep this Blogger skin block. */
 ]]></b:skin>
 <!-- Externalized original b:skin CSS; upload skin-base.css to /css/ in GitHub -->
-<link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/css/skin-base.css' rel='stylesheet' type='text/css'/>
+<link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@3d653007fe490894dd7e930576cabf22c5ad97f8/css/skin-base.css' rel='stylesheet' type='text/css'/>
 
 
 <b:template-skin>
@@ -121,13 +121,13 @@ body#layout #banner .add_widget,#layout #banner2 .add_widget{width:80%;margin:5p
 ]]>
 </b:template-skin>
 <!-- External overall CSS via jsDelivr -->
-<link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/css/overall.css' rel='stylesheet' type='text/css'/>
+<link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@49c1069e27a8e006e4804d08f0062d422f0584ec/css/overall.css' rel='stylesheet' type='text/css'/>
 <!-- Dedicated homepage/archive post card styles -->
-<link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/css/post-cards.css' rel='stylesheet' type='text/css'/>
-<link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/css/brand-system.css' rel='stylesheet' type='text/css'/>
+<link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@507c9b5136b8693e5e29c791f648f1dacbed3009/css/post-cards.css' rel='stylesheet' type='text/css'/>
+<link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@f9b173439dcc28717d8a40489c819753ff446506/css/brand-system.css' rel='stylesheet' type='text/css'/>
 
 <script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'/>
-<script defer='defer' src='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@main/js/theme.js'/>
+<script defer='defer' src='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@81a4ccfdf55616fdf2d4c38d85e2abdcef77ee12/js/theme.js'/>
 <script type='text/javascript'>
 //<![CDATA[
 //CSS Ready
