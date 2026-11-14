@@ -40,7 +40,20 @@
       <section class='landing-hero' id='landing-hero'>
         <div class='container landing-hero__inner'>
           <b:section id='landingPage' class='landing-page' maxwidgets='3' showaddelement='yes'>
-            <b:widget id='HTML1' type='HTML' title='Landing Page / Hero' locked='false' version='2'/>
+            <b:widget id='HTML1' type='HTML' title='Landing Page / Hero' locked='false' version='2'>
+              <b:widget-settings>
+                <b:widget-setting name='content'><![CDATA[<div class="hero-copy">
+  <p class="hero-eyebrow">TECHNOLOGY · EDUCATION · IDEAS</p>
+  <h1>Learn something useful. Build something meaningful.</h1>
+  <p>Explore practical technology tutorials, learning resources, thoughtful ideas and projects across education, business and law.</p>
+  <p class="hero-actions"><a class="button" href="/search">Explore Articles</a><a class="button hero-secondary" href="https://operator.ksumanadhikari.com.np/">Computer Operator Resources</a></p>
+</div>]]></b:widget-setting>
+              </b:widget-settings>
+              <b:includable id='main'>
+                <b:if cond='data:title != ""'><h2 class='title'><data:title/></h2></b:if>
+                <div class='widget-content'><data:content/></div>
+              </b:includable>
+            </b:widget>
           </b:section>
         </div>
       </section>
@@ -60,7 +73,21 @@
           </button>
           <div class='primary-navigation__panel' id='primary-navigation-panel'>
             <b:section id='navigationLinks' class='navigation-links' maxwidgets='1' showaddelement='yes'>
-              <b:widget id='LinkList1' type='LinkList' title='Main Navigation' locked='false' version='2'/>
+              <b:widget id='LinkList1' type='LinkList' title='Main Navigation' locked='false' version='2'>
+              <b:widget-settings>
+                <b:widget-setting name='sorting'>NONE</b:widget-setting>
+                <b:widget-setting name='text-0'>Home</b:widget-setting>
+                <b:widget-setting name='link-0'>https://www.ksumanadhikari.com.np/</b:widget-setting>
+                <b:widget-setting name='text-1'>About</b:widget-setting>
+                <b:widget-setting name='link-1'>https://www.ksumanadhikari.com.np/p/about.html</b:widget-setting>
+                <b:widget-setting name='text-2'>Articles</b:widget-setting>
+                <b:widget-setting name='link-2'>https://www.ksumanadhikari.com.np/search</b:widget-setting>
+                <b:widget-setting name='text-3'>Learning</b:widget-setting>
+                <b:widget-setting name='link-3'>https://operator.ksumanadhikari.com.np/</b:widget-setting>
+                <b:widget-setting name='text-4'>Contact</b:widget-setting>
+                <b:widget-setting name='link-4'>mailto:ksumanadhikari@gmail.com</b:widget-setting>
+              </b:widget-settings>
+            </b:widget>
             </b:section>
             <div class='navigation-search'>
               <b:section id='navigationSearch' class='navigation-search__section' maxwidgets='1' showaddelement='yes'>
@@ -77,7 +104,24 @@
       <section class='welcome-message' id='welcome-message'>
         <div class='container'>
           <b:section id='welcomeMessage' class='welcome-message__section' maxwidgets='2' showaddelement='yes'>
-            <b:widget id='HTML2' type='HTML' title='Welcome Message / Profile' locked='false' version='2'/>
+            <b:widget id='HTML2' type='HTML' title='Welcome Message / Profile' locked='false' version='2'>
+              <b:widget-settings>
+                <b:widget-setting name='content'><![CDATA[<div class="profile-intro">
+  <div class="profile-avatar-placeholder" aria-label="Profile photo placeholder">KA</div>
+  <div class="profile-intro__content">
+    <p class="profile-intro__eyebrow">WELCOME TO MY PERSONAL WEBSITE</p>
+    <h2>Learn. Understand. Grow.</h2>
+    <p>This is a space for sharing knowledge, practical resources and ideas in information technology, education, business and law.</p>
+    <p>Replace this sample text with your personal introduction and replace the initials block with your profile photo when ready.</p>
+    <p><a href="/search">Explore my work and articles →</a></p>
+  </div>
+</div>]]></b:widget-setting>
+              </b:widget-settings>
+              <b:includable id='main'>
+                <b:if cond='data:title != ""'><h2 class='title'><data:title/></h2></b:if>
+                <div class='widget-content'><data:content/></div>
+              </b:includable>
+            </b:widget>
           </b:section>
         </div>
       </section>
@@ -89,7 +133,20 @@
         <b:if cond='data:view.isHomepage'>
           <section class='featured-content' id='featured-content'>
             <b:section id='featuredContent' class='featured-content__section' maxwidgets='3' showaddelement='yes'>
-              <b:widget id='HTML3' type='HTML' title='Featured Content' locked='false' version='2'/>
+              <b:widget id='HTML3' type='HTML' title='Featured Content' locked='false' version='2'>
+              <b:widget-settings>
+                <b:widget-setting name='content'><![CDATA[<div class="feature-grid">
+  <a class="feature-tile" href="https://operator.ksumanadhikari.com.np/"><span class="feature-kicker">LEARNING</span><strong>Computer Operator</strong><span>Notes, MCQs and practical preparation resources.</span></a>
+  <a class="feature-tile" href="https://php.ksumanadhikari.com.np/"><span class="feature-kicker">DEVELOPMENT</span><strong>PHP & Web</strong><span>Programming concepts and web development tutorials.</span></a>
+  <a class="feature-tile" href="https://csharp.ksumanadhikari.com.np/"><span class="feature-kicker">PROGRAMMING</span><strong>C# & .NET</strong><span>Programming lessons and practical examples.</span></a>
+  <a class="feature-tile" href="/search/label/Education"><span class="feature-kicker">EDUCATION</span><strong>Education</strong><span>Teaching, curriculum and learning resources.</span></a>
+</div>]]></b:widget-setting>
+              </b:widget-settings>
+              <b:includable id='main'>
+                <b:if cond='data:title != ""'><h2 class='title'><data:title/></h2></b:if>
+                <div class='widget-content'><data:content/></div>
+              </b:includable>
+            </b:widget>
             </b:section>
           </section>
         </b:if>
@@ -103,7 +160,19 @@
         <b:if cond='data:view.isPost'>
           <section class='post-extras' id='post-extras'>
             <b:section id='insidePostGadgets' class='inside-post-gadgets' maxwidgets='8' showaddelement='yes'>
-              <b:widget id='HTML6' type='HTML' title='Post Extra / Related Resources' locked='false' version='2'/>
+              <b:widget id='HTML6' type='HTML' title='Post Extra / Related Resources' locked='false' version='2'>
+              <b:widget-settings>
+                <b:widget-setting name='content'><![CDATA[<div class="post-resource-panel">
+  <h3>Continue learning</h3>
+  <p>Found this topic useful? Explore more learning resources and related articles.</p>
+  <div class="post-resource-links"><a href="/search">Browse all articles</a><a href="https://operator.ksumanadhikari.com.np/">Computer Operator resources</a></div>
+</div>]]></b:widget-setting>
+              </b:widget-settings>
+              <b:includable id='main'>
+                <b:if cond='data:title != ""'><h2 class='title'><data:title/></h2></b:if>
+                <div class='widget-content'><data:content/></div>
+              </b:includable>
+            </b:widget>
             </b:section>
           </section>
         </b:if>
@@ -112,7 +181,24 @@
       <!-- 3. SIDEBAR: independently editable Blogger gadgets. -->
       <aside class='site-sidebar' id='site-sidebar'>
         <b:section id='sidebarMain' class='sidebar-widgets' maxwidgets='12' showaddelement='yes'>
-          <b:widget id='HTML7' type='HTML' title='Sidebar / Quick Introduction' locked='false' version='2'/>
+          <b:widget id='HTML7' type='HTML' title='Sidebar / Quick Introduction' locked='false' version='2'>
+              <b:widget-settings>
+                <b:widget-setting name='content'><![CDATA[<div class="sidebar-intro">
+  <div class="sidebar-avatar">KA</div>
+  <h3>Welcome!</h3>
+  <p>This website shares practical knowledge and resources on technology, education, business and law.</p>
+  <a class="sidebar-action" href="/search">Explore articles</a>
+</div>
+<div class="sidebar-quick-links">
+  <h3>Quick links</h3>
+  <ul><li><a href="https://operator.ksumanadhikari.com.np/">Computer Operator</a></li><li><a href="https://php.ksumanadhikari.com.np/">PHP Tutorials</a></li><li><a href="https://csharp.ksumanadhikari.com.np/">C# Tutorials</a></li><li><a href="https://www.youtube.com/@ksumanadhikari">YouTube Channel</a></li></ul>
+</div>]]></b:widget-setting>
+              </b:widget-settings>
+              <b:includable id='main'>
+                <b:if cond='data:title != ""'><h2 class='title'><data:title/></h2></b:if>
+                <div class='widget-content'><data:content/></div>
+              </b:includable>
+            </b:widget>
         </b:section>
       </aside>
     </main>
@@ -121,7 +207,19 @@
     <section class='subsidiary-section' id='subsidiary-section'>
       <div class='container'>
         <b:section id='subsidiarySites' class='subsidiary-sites' maxwidgets='4' showaddelement='yes'>
-          <b:widget id='HTML4' type='HTML' title='Other Websites / Subsidiary' locked='false' version='2'/>
+          <b:widget id='HTML4' type='HTML' title='Other Websites / Subsidiary' locked='false' version='2'>
+              <b:widget-settings>
+                <b:widget-setting name='content'><![CDATA[<div class="network-grid">
+  <a class="network-card" href="https://operator.ksumanadhikari.com.np/"><strong>Computer Operator</strong><span>Exam preparation, notes and MCQs</span></a>
+  <a class="network-card" href="https://php.ksumanadhikari.com.np/"><strong>PHP Learning</strong><span>PHP and web development</span></a>
+  <a class="network-card" href="https://csharp.ksumanadhikari.com.np/"><strong>C# Learning</strong><span>C# and .NET programming</span></a>
+</div>]]></b:widget-setting>
+              </b:widget-settings>
+              <b:includable id='main'>
+                <b:if cond='data:title != ""'><h2 class='title'><data:title/></h2></b:if>
+                <div class='widget-content'><data:content/></div>
+              </b:includable>
+            </b:widget>
         </b:section>
       </div>
     </section>
@@ -130,7 +228,14 @@
     <section class='category-section' id='category-section'>
       <div class='container'>
         <b:section id='postCategories' class='post-categories' maxwidgets='2' showaddelement='yes'>
-          <b:widget id='Label1' type='Label' title='Explore by Category' locked='false' version='2'/>
+          <b:widget id='Label1' type='Label' title='Explore by Category' locked='false' version='2'>
+          <b:widget-settings>
+            <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+            <b:widget-setting name='display'>LIST</b:widget-setting>
+            <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
+            <b:widget-setting name='showType'>ALL</b:widget-setting>
+          </b:widget-settings>
+        </b:widget>
         </b:section>
       </div>
     </section>
@@ -139,7 +244,19 @@
     <footer class='site-footer' id='site-footer'>
       <div class='container site-footer__inner'>
         <b:section id='footerMain' class='footer-main' maxwidgets='6' showaddelement='yes'>
-          <b:widget id='HTML5' type='HTML' title='Footer Information' locked='false' version='2'/>
+          <b:widget id='HTML5' type='HTML' title='Footer Information' locked='false' version='2'>
+              <b:widget-settings>
+                <b:widget-setting name='content'><![CDATA[<div class="footer-content-grid">
+  <div><h3>About this website</h3><p>A personal knowledge hub for technology, education, business and ideas. Learn, build and share useful things.</p></div>
+  <div><h3>Explore</h3><ul><li><a href="/search">All articles</a></li><li><a href="/p/about.html">About</a></li><li><a href="https://operator.ksumanadhikari.com.np/">Learning resources</a></li></ul></div>
+  <div><h3>Connect</h3><ul><li><a href="https://www.youtube.com/@ksumanadhikari">YouTube</a></li><li><a href="https://www.facebook.com/profile.php?id=61595246783060">Facebook</a></li><li><a href="mailto:ksumanadhikari@gmail.com">Email</a></li></ul></div>
+</div>]]></b:widget-setting>
+              </b:widget-settings>
+              <b:includable id='main'>
+                <b:if cond='data:title != ""'><h2 class='title'><data:title/></h2></b:if>
+                <div class='widget-content'><data:content/></div>
+              </b:includable>
+            </b:widget>
         </b:section>
         <div class='site-footer__bottom'>
           <span class='copyright-line'>© <data:blog.title/>. All rights reserved.</span>
