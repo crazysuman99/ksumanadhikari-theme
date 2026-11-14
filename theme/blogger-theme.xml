@@ -102,14 +102,18 @@
         <!-- 7. GADGETS INSIDE / BELOW INDIVIDUAL POSTS. -->
         <b:if cond='data:view.isPost'>
           <section class='post-extras' id='post-extras'>
-            <b:section id='insidePostGadgets' class='inside-post-gadgets' maxwidgets='8' showaddelement='yes'/>
+            <b:section id='insidePostGadgets' class='inside-post-gadgets' maxwidgets='8' showaddelement='yes'>
+              <b:widget id='HTML6' type='HTML' title='Post Extra / Related Resources' locked='false' version='2'/>
+            </b:section>
           </section>
         </b:if>
       </div>
 
       <!-- 3. SIDEBAR: independently editable Blogger gadgets. -->
       <aside class='site-sidebar' id='site-sidebar'>
-        <b:section id='sidebarMain' class='sidebar-widgets' maxwidgets='12' showaddelement='yes'/>
+        <b:section id='sidebarMain' class='sidebar-widgets' maxwidgets='12' showaddelement='yes'>
+          <b:widget id='HTML7' type='HTML' title='Sidebar / Quick Introduction' locked='false' version='2'/>
+        </b:section>
       </aside>
     </main>
 
