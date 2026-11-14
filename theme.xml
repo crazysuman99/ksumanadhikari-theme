@@ -159,8 +159,6 @@ loadCSS("https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700");l
 <li><a href='https://www.ksumanadhikari.com.np/p/bio.html' title='About Suman'><i class='fa fa-user'/> About</a></li>
 <li><a href='/sitemap.xml' title='Our Sitemap'><i class='fa fa-list'/> Sitemap</a></li>
 <li><a href='mailto:ksumanadhikari@gmail.com' title='Contact Suman'><i class='fa fa-envelope'/> Contact</a></li>
-<li><a href='/p/disclaimer.html' title='Disclaimer'><i class='fa fa-check-circle'/> Disclaimer</a></li>
-<li class='sosmed twitter'><a class='simple-tooltip simple-tooltip-left' data-simple-tooltip='Follow us on Twitter' href='https://x.com/ksumanadhikari' rel='nofollow' target='_blank'><i class='fa fa-twitter'/><span class='inv'/></a></li>
 </ul>
 <a href='#' id='pull'>MENU</a>
 </nav>
