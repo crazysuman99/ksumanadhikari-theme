@@ -1,30 +1,18 @@
-# Ksumanaadhikari Theme
+# Ksumanaadhikari Blogger Theme
 
-A clean, responsive, modular Blogger theme designed for [ksumanadhikari.com.np](https://www.ksumanadhikari.com.np).
+A clean, responsive Blogger theme for [ksumanadhikari.com.np](https://www.ksumanadhikari.com.np).
 
-The project focuses on simplicity, readability, performance, maintainability, and a consistent personal brand experience.
+The project is built around a simple principle: **content first, unnecessary decoration last.**
 
-## 🎯 Project Goals
+## Design principles
 
-- Build a professional personal-brand website.
-- Keep the interface clean and content-focused.
-- Ensure responsive design across desktop, tablet, and mobile devices.
-- Organize CSS and JavaScript into independent modules.
-- Make the theme easy to maintain and extend.
-- Support Blogger widgets and dynamic content.
+- Readable typography and clear content hierarchy.
+- Responsive layouts for desktop, tablet, and mobile.
+- Simple navigation and useful Blogger widgets.
+- Modular CSS and JavaScript.
+- Maintainable code with assets hosted from this repository through jsDelivr.
 
-## 🎨 Design Philosophy
-
-**Keep It Simple, Stupid (KISS).**
-
-The design prioritizes:
-- Readability over decoration.
-- Content over unnecessary visual effects.
-- Consistency over complexity.
-- Performance over excessive dependencies.
-- Usability across all screen sizes.
-
-## 🛠️ Technology Stack
+## Technology
 
 - Blogger XML
 - HTML5
@@ -33,57 +21,54 @@ The design prioritizes:
 - jQuery
 - jsDelivr CDN
 
-## 📁 Project Structure
-
-The project will be organized into the following directories:
+## Repository structure
 
 ```text
 ksumanadhikari-theme/
-│
-├── theme/
-│   └── blogger-theme.xml
-│
+├── theme.xml
+├── README.md
 ├── css/
-│   └── Modular stylesheets
-│
-├── js/
-│   └── Modular JavaScript files
-│
-├── docs/
-│   └── Documentation
-│
-└── README.md
+│   ├── skin-base.css
+│   ├── overall.css
+│   ├── post-cards.css
+│   └── error-page.css
+└── js/
+    └── theme.js
 ```
 
-## 🚀 Installation
+## How assets are loaded
 
-1. Download the latest theme XML file.
-2. Open Blogger Dashboard.
-3. Navigate to **Theme → Edit HTML**.
-4. Back up your existing theme.
-5. Replace the existing XML with the new theme.
-6. Save and preview your website.
+The Blogger template is maintained in `theme.xml`. Stylesheets and the main JavaScript file are loaded from this repository:
 
-## 🔧 Customization
+- `css/skin-base.css`
+- `css/overall.css`
+- `css/post-cards.css`
+- `js/theme.js`
 
-The theme is intended to support independent CSS and JavaScript modules through CDN hosting.
+The CDN URLs currently use the `main` branch. For production stability, pin these URLs to a commit SHA after a release is tested.
 
-Customization instructions will be documented as the project develops.
+## Installation
 
-## 🌐 Website
+1. Back up the current theme in Blogger.
+2. Open **Blogger Dashboard → Theme → Edit HTML**.
+3. Replace the template with the contents of `theme.xml`.
+4. Save and check the homepage, post pages, static pages, navigation, and mobile layout.
 
-[www.ksumanadhikari.com.np](https://www.ksumanadhikari.com.np)
+## Development notes
 
-## 📌 Project Status
+- Keep CSS and JavaScript in their respective folders.
+- Update CDN paths in `theme.xml) whenever an asset is renamed or moved.
+- Test changes on a backup/test blog before applying them to the live site.
+- Do not commit private credentials, API keys, or account tokens.
 
-**Development — Initial Setup**
+## Project status
 
-This repository is currently being prepared for the development of a modular Blogger theme.
+**Active development.** The repository contains the Blogger template and its currently referenced theme assets. Features and compatibility should be tested on Blogger before production use.
 
-## 📄 License
+## Website
 
-License information will be added when the project licensing is finalized.
+[ksumanadhikari.com.np](https://www.ksumanadhikari.com.np)
 
----
+## Maintainer
 
-Maintained by [Ksumanaadhikari](https://github.com/crazys
+[Ksumanaadhikari](https://github.com/crazysuman99)
