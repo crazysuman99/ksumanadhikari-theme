@@ -332,7 +332,7 @@ loadCSS("https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700");l
 <b:if cond='data:blog.url == data:blog.homepageUrl'>
 <div class='signature-home'><div class='signature-shell'>
 <b:section id='signature-message' maxwidgets='1' name='Homepage Hero - Edit in Layout' showaddelement='yes'>
-<b:widget id='HTML22' locked='false' title='Welcome to My Digital Space' type='HTML' version='2' visible='true'><b:widget-settings><b:widget-setting name='content'><![CDATA[<section class="signature-intro" id="about">
+<b:widget id='HTML22' locked='false' title='Welcome to My Digital Space' type='HTML' version='2' visible='true'><b:widget-settings><b:widget-setting name='content'><![CDATA[<section class="signature-intro">
 <div class="signature-intro-copy"><span class="signature-kicker">TECHNOLOGY · EDUCATION · KNOWLEDGE · PERSONAL GROWTH</span><h1>Suman Adhikari</h1><h2>Learn. Build. Teach. Grow.</h2>
 <p class="signature-lead">Welcome to my digital space — a place for practical learning, useful ideas, and meaningful work.</p>
 <p>I share knowledge and resources across Information Technology, education, business, and law. Here you can explore tutorials, study materials, projects, learning opportunities, and ideas built to help you move forward.</p>
@@ -344,7 +344,7 @@ loadCSS("https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700");l
 <b:widget id='HTML24' locked='false' title='What I Explore' type='HTML' version='2' visible='true'><b:widget-settings><b:widget-setting name='content'><![CDATA[<section id="learning"><div class="signature-section-heading"><span>LEARNING & KNOWLEDGE</span><h2>Explore What I Work On</h2><p>Four connected areas that shape my learning, teaching, and projects.</p></div>
 <div class="signature-pillars-grid">
 <article class="signature-pillar-card"><span class="signature-card-mark">IT</span><h3>Technology</h3><p>Programming, software development, computer systems, and practical digital skills.</p></article>
-<article class="signature-pillar-card"><span class="signature-card-mark">EDU</span><h3>Education</h3><p>Teaching, curriculum, learning resources, exam preparation, and online classes.</p></article>
+<article class="signature-pillar-card"><span class="signature-card-mark">JUDO</span><h3>Judo &amp; Discipline</h3><p>Judo, consistency, self-discipline, resilience, and continuous personal development.</p></article>
 <article class="signature-pillar-card"><span class="signature-card-mark">BIZ</span><h3>Business & Management</h3><p>Management, entrepreneurship, business ideas, and practical professional growth.</p></article>
 <article class="signature-pillar-card"><span class="signature-card-mark">LAW</span><h3>Law & Society</h3><p>Legal education, civic awareness, and the relationship between technology and society.</p></article>
 </div></section>]]></b:widget-setting></b:widget-settings><b:includable id='main'><div class='widget-content'><data:content/></div></b:includable></b:widget>
@@ -372,7 +372,7 @@ loadCSS("https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700");l
 </div></section>]]></b:widget-setting></b:widget-settings><b:includable id='main'><div class='widget-content'><data:content/></div></b:includable></b:widget>
 </b:section>
 <b:section id='signature-about-connect' maxwidgets='1' name='About, Vision and Contact' showaddelement='yes'>
-<b:widget id='HTML26' locked='false' title='About and Connect' type='HTML' version='2' visible='true'><b:widget-settings><b:widget-setting name='content'><![CDATA[<section><div class="signature-section-heading"><span>THE PURPOSE</span><h2>Why This Platform Exists</h2></div>
+<b:widget id='HTML26' locked='false' title='About and Connect' type='HTML' version='2' visible='true'><b:widget-settings><b:widget-setting name='content'><![CDATA[<section id="about"><div class="signature-section-heading"><span>THE PURPOSE</span><h2>Why This Platform Exists</h2></div>
 <div class="signature-about-grid"><div class="signature-about-card"><h3>My Mission</h3><p>To make useful knowledge easier to access through clear explanations, practical resources, teaching, and technology.</p></div>
 <div class="signature-about-card"><h3>My Vision</h3><p>To build a connected learning and knowledge platform where people can learn skills, explore ideas, and turn knowledge into meaningful work.</p></div></div></section>
 <section class="signature-connect" id="connect"><div><h2>Have an idea or want to collaborate?</h2><p>For classes, mentoring, freelance projects, or general enquiries, get in touch.</p></div>
