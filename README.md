@@ -1,69 +1,59 @@
-# Ksumanaadhikari Blogger Theme
+# Ksumanaadhikari Personal Brand Theme
 
-A clean, responsive Blogger theme for [ksumanadhikari.com.np](https://www.ksumanadhikari.com.np).
+A responsive Blogger theme for [ksumanadhikari.com.np](https://www.ksumanadhikari.com.np).
 
-The project is built around a simple principle: **content first, unnecessary decoration last.**
+The website is designed as a **personal brand, learning media, and digital business hub** — not just a conventional blog.
 
-## Design principles
+## Design direction
 
-- Readable typography and clear content hierarchy.
-- Responsive layouts for desktop, tablet, and mobile.
-- Simple navigation and useful Blogger widgets.
-- Modular CSS and JavaScript.
-- Maintainable code with assets hosted from this repository through jsDelivr.
-
-## Technology
-
-- Blogger XML
-- HTML5
-- CSS3
-- JavaScript
-- jQuery
-- jsDelivr CDN
+- Executive personal-brand identity with a clean, content-first layout.
+- Blue, green, and purple accents with a deep navy foundation.
+- Readable typography, consistent spacing, and responsive components.
+- Photo-and-introduction hero, knowledge pillars, learning/services, YouTube and podcast, specialist learning websites, latest articles, and contact links.
+- Blogger LinkList navigation and native Blogger BlogSearch widget.
+- Styled article cards, sidebar gadgets, and multi-column footer.
 
 ## Repository structure
 
 ```text
 ksumanadhikari-theme/
-├── theme.xml
 ├── README.md
+├── theme.xml
 ├── css/
 │   ├── skin-base.css
 │   ├── overall.css
 │   ├── post-cards.css
+│   ├── brand-system.css
 │   └── error-page.css
 └── js/
     └── theme.js
 ```
 
-## How assets are loaded
-
-The Blogger template is maintained in `theme.xml`. Stylesheets and the main JavaScript file are loaded from this repository:
-
-- `css/skin-base.css`
-- `css/overall.css`
-- `css/post-cards.css`
-- `js/theme.js`
-
-The CDN URLs currently use the `main` branch. For production stability, pin these URLs to a commit SHA after a release is tested.
-
 ## Installation
 
-1. Back up the current theme in Blogger.
+1. Back up the current Blogger theme.
 2. Open **Blogger Dashboard → Theme → Edit HTML**.
 3. Replace the template with the contents of `theme.xml`.
-4. Save and check the homepage, post pages, static pages, navigation, and mobile layout.
+4. In Blogger Layout, edit the homepage HTML gadgets to update the hero, learning areas, services, media, platforms, and contact details.
+5. Test desktop, mobile, homepage, search, label, static-page, and post-page layouts.
 
-## Development notes
+## Editing navigation
 
-- Keep CSS and JavaScript in their respective folders.
-- Update CDN paths in `theme.xml` whenever an asset is renamed or moved.
-- Test changes on a backup/test blog before applying them to the live site.
-- Do not commit private credentials, API keys, or account tokens.
+The main navigation is managed through the **Main Navigation** Blogger LinkList gadget. Use underscore prefixes for dropdown levels, for example:
+
+- `Learning`
+- `_Programming`
+- `__C Programming`
+
+The search field uses Blogger's native **BlogSearch** gadget.
+
+## Asset delivery
+
+CSS and JavaScript are served from this repository through jsDelivr. The theme currently uses the `main` branch; pin asset URLs to a tested commit SHA for a production release.
 
 ## Project status
 
-**Active development.** The repository contains the Blogger template and its currently referenced theme assets. Features and compatibility should be tested on Blogger before production use.
+Active development. Test all changes on a Blogger test blog before applying them to the live website.
 
 ## Website
 
