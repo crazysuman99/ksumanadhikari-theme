@@ -1310,3 +1310,63 @@ body.item .post-body.entry-content > div:first-child.separator img {
   object-fit: contain;
   box-sizing: border-box;
 }
+
+/* =========================================================
+   NAVIGATION BAR — DESKTOP OVERFLOW FIX
+   ========================================================= */
+@media (min-width: 701px) {
+  #nav {
+    display: block !important;
+    float: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+  }
+
+  #nav .main-menu-section {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  #nav .main-menu-section .widget-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  #nav .shnav {
+    display: flex !important;
+    float: none !important;
+    flex-flow: row wrap !important;
+    align-items: stretch !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  #nav .shnav > li {
+    float: none !important;
+    flex: 0 1 auto !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  #nav .shnav > li > a {
+    display: flex !important;
+    align-items: center !important;
+    min-height: 58px !important;
+    height: auto !important;
+    line-height: 1.35 !important;
+    padding: 10px 11px !important;
+    white-space: normal !important;
+    overflow-wrap: anywhere !important;
+    font-size: clamp(12px, 1vw, 14px) !important;
+    box-sizing: border-box !important;
+  }
+}
