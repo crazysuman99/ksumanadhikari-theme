@@ -1015,13 +1015,7 @@ $(this).show().attr('src', ava.replace(/\/s[0-9]+(\-c)?\//,"/s55-c/"));
           </div>
           <div class='post-footer'>
             <div class='post-footer-line post-footer-line-1'>
-              <span class='post-author vcard'>
-                <b:if cond='data:top.showAuthor'>
-                  <b:if cond='data:post.authorProfileUrl'>
-                    <span class='fn' itemprop='author' itemscope='itemscope' itemtype='https://schema.org/Person'>
-                      <meta expr:content='data:post.authorProfileUrl' itemprop='url'/>
-                      <a expr:href='data:post.authorProfileUrl' rel='author' title='author profile'>
-                        <span itemprop='name'><data:post.author/></span>
+              
                       </a>
                     </span>
                   <b:else/>
@@ -1157,12 +1151,7 @@ $(this).show().attr('src', ava.replace(/\/s[0-9]+(\-c)?\//,"/s55-c/"));
 
     <div class='post-header'>
     <div class='post-header-line-1'/>
-<span class='post-author vcard' itemscope='itemscope' itemtype='https://schema.org/Person'> 
-                <b:if cond='data:top.showAuthor'> 
-                  <b:if cond='data:post.authorProfileUrl'> 
-                    <span class='fn author'> 
-                      <a expr:href='data:post.authorProfileUrl' rel='author' title='author profile'> 
-                        <span itemprop='name'><data:post.author/></span> 
+ 
                       </a> 
                     </span> 
                   <b:else/> 
@@ -1243,28 +1232,7 @@ $(this).show().attr('src', ava.replace(/\/s[0-9]+(\-c)?\//,"/s55-c/"));
 </div>
 </div>
 <div style='clear:both;'/>
-<div class='authorboxwrap'>
-<div class='authorboxfull'>
-<div class='avatar-container'>
-<a href=''>
-<img class='author_avatar' expr:alt='data:post.author' expr:src='data:post.authorPhoto.url' height='110' width='110'/>
-</a>
-</div>
-<div class='author_description_container'>
-<h4><a href='#' rel='author'><data:post.author/></a></h4>
-<p>
-<data:post.authorAboutMe/>       
-</p>
-<div class='authorsocial'>
-<a class='img-circle1' href='https://www.facebook.com/profile.php?id=61595246783060' rel='nofollow' target='_blank'><i class='fa fa-facebook'/></a>
-<a class='img-circle2' href='https://x.com/ksumanadhikari' rel='nofollow' target='_blank'><i class='fa fa-twitter'/></a>
-<a class='img-circle3' href='https://www.youtube.com/@ksumanadhikari' rel='nofollow' target='_blank'><i class='fa fa-google-plus'/></a>
-<div class='clr'/>
-</div>
-</div>
-</div>
-</div>
-<div style='clear:both'/>
+
 <div class='related-post' id='related-post'/>
   <script type='text/javascript'>
   var labelArray = [<b:if cond='data:post.labels'><b:loop values='data:post.labels' var='label'>
