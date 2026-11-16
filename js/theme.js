@@ -90,7 +90,28 @@
     getNext(nextUrl);
   }
 
+  function applyManagedImages() {
+    function managedImage(sectionId) {
+      var section = document.getElementById(sectionId);
+      var img = section && section.querySelector('img');
+      if (!img) return '';
+      return img.getAttribute('data-src') || img.getAttribute('src') || img.src || '';
+    }
+    var heroUrl = managedImage('hero-image-manager');
+    var thumbnailUrl = managedImage('thumbnail-image-manager');
+    if (heroUrl) {
+      var hero = document.querySelector('.signature-intro-image img');
+      if (hero) hero.src = heroUrl;
+    }
+    if (thumbnailUrl) {
+      document.querySelectorAll('.simple-thumbnail img').forEach(function (img) {
+        img.src = thumbnailUrl;
+      });
+    }
+  }
+
   ready(function () {
+    applyManagedImages();
     buildHybridMenu();
     loadAllPosts();
 
