@@ -124,7 +124,7 @@ body#layout #banner .add_widget,#layout #banner2 .add_widget{width:80%;margin:5p
 <link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@e577612156bda04a1e5ca006e630e56536217402/css/overall.css' rel='stylesheet' type='text/css'/>
 <!-- Dedicated homepage/archive post card styles -->
 <link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@391a02eae9567911dc1a6e58ca1f97bec6700d17/css/post-cards.css' rel='stylesheet' type='text/css'/>
-<link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@f332a70ec432b2956c7a82b164a9d737cc7bb0db/css/brand-system.css' rel='stylesheet' type='text/css'/>
+<link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@bdf1f4a4108296de160a5bae89e25f0c45813f90/css/brand-system.css' rel='stylesheet' type='text/css'/>
 
 <script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'/>
 <script defer='defer' src='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@6c796a6c0e503f2400664421862f90dab237e37a/js/theme.js'/>
