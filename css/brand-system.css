@@ -237,51 +237,19 @@ a:link{color:var(--blue)}a:visited{color:#475569}a:link:hover,a:visited:hover{co
   }
 }
 
-/* FIX: signature message layout — text left, image right */
+/* Signature message: text remains editable independently; JS inserts the managed photo. */
 @media (min-width:701px){
-  .signature-intro{
-    display:grid!important;
-    grid-template-columns:minmax(0,1fr) minmax(300px,390px)!important;
-    align-items:center!important;
-    gap:42px!important;
-    width:100%!important;
-  }
-  .signature-intro-copy{
-    grid-column:1!important;
-    grid-row:1!important;
-    min-width:0!important;
-  }
-  .signature-intro-image{
-    grid-column:2!important;
-    grid-row:1!important;
-    display:flex!important;
-    align-items:center!important;
-    justify-content:center!important;
-    min-width:0!important;
-  }
-  .signature-intro-image img{
-    display:block!important;
-    width:100%!important;
-    max-width:390px!important;
-    height:390px!important;
-    object-fit:cover!important;
-  }
+  .signature-intro{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(300px,390px)!important;align-items:center!important;gap:42px!important;width:100%!important}
+  .signature-intro-copy{grid-column:1!important;grid-row:1!important;min-width:0!important}
+  .signature-intro-image{grid-column:2!important;grid-row:1!important;display:flex!important;align-items:center!important;justify-content:center!important;min-width:0!important}
+  .signature-intro-image img{display:block!important;width:100%!important;max-width:390px!important;height:390px!important;object-fit:cover!important}
 }
 @media (max-width:700px){
-  .signature-intro{
-    display:grid!important;
-    grid-template-columns:1fr!important;
-  }
-  .signature-intro-image{
-    grid-column:1!important;
-    grid-row:1!important;
-  }
-  .signature-intro-copy{
-    grid-column:1!important;
-    grid-row:2!important;
-  }
+  .signature-intro{display:grid!important;grid-template-columns:1fr!important}
+  .signature-intro-copy{grid-column:1!important;grid-row:1!important}
+  .signature-intro-image{grid-column:1!important;grid-row:1!important}
+  .signature-intro.has-managed-hero-image .signature-intro-copy{grid-row:2!important}
 }
-
 
 /* Image manager gadgets are editable in Blogger Layout; keep their raw widgets off the public page. */
 #hero-image-manager,
