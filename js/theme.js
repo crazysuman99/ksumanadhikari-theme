@@ -100,8 +100,22 @@
     var heroUrl = managedImage('hero-image-manager');
     var thumbnailUrl = managedImage('thumbnail-image-manager');
     if (heroUrl) {
-      var hero = document.querySelector('.signature-intro-image img');
-      if (hero) hero.src = heroUrl;
+      var intro = document.querySelector('.signature-intro');
+      var copy = intro && intro.querySelector('.signature-intro-copy');
+      if (intro && copy) {
+        var imageBox = intro.querySelector('.signature-intro-image');
+        if (!imageBox) {
+          imageBox = document.createElement('div');
+          imageBox.className = 'signature-intro-image';
+          var hero = document.createElement('img');
+          hero.alt = 'Homepage message';
+          imageBox.appendChild(hero);
+          intro.appendChild(imageBox);
+        }
+        var heroImage = imageBox.querySelector('img');
+        if (heroImage) heroImage.src = heroUrl;
+        intro.classList.add('has-managed-hero-image');
+      }
     }
     if (thumbnailUrl) {
       document.querySelectorAll('.simple-thumbnail img').forEach(function (img) {
