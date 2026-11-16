@@ -299,3 +299,10 @@ a:link{color:var(--blue)}a:visited{color:#475569}a:link:hover,a:visited:hover{co
 }
 
 @media(max-width:600px){.signature-connect{grid-template-columns:minmax(0,1fr) 118px;padding:18px 16px;column-gap:10px}.signature-connect h2{font-size:20px!important}.signature-connect-art svg{max-width:118px}.signature-social-links{grid-column:1/-1}}
+
+
+/* Podcast card headphone and audio-wave vector */
+.signature-podcast-art{display:flex;align-items:center;justify-content:center;margin:0 auto 15px;color:var(--purple)}
+.signature-podcast-art svg{display:block;width:100%;max-width:210px;height:142px;overflow:visible}
+.signature-podcast-card{align-items:flex-start}
+@media(max-width:680px){.signature-podcast-art{width:100%}.signature-podcast-art svg{max-width:180px;height:124px}}
