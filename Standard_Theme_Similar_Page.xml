@@ -121,7 +121,7 @@ body#layout #banner .add_widget,#layout #banner2 .add_widget{width:80%;margin:5p
 ]]>
 </b:template-skin>
 <!-- External overall CSS via jsDelivr -->
-<link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@49c1069e27a8e006e4804d08f0062d422f0584ec/css/overall.css' rel='stylesheet' type='text/css'/>
+<link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@e577612156bda04a1e5ca006e630e56536217402/css/overall.css' rel='stylesheet' type='text/css'/>
 <!-- Dedicated homepage/archive post card styles -->
 <link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@391a02eae9567911dc1a6e58ca1f97bec6700d17/css/post-cards.css' rel='stylesheet' type='text/css'/>
 <link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@4a4ed02bf53bd1e56d48bc49fbe1ee494682455a/css/brand-system.css' rel='stylesheet' type='text/css'/>
@@ -416,52 +416,7 @@ loadCSS("https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700");l
 <div id='post-wrapper'>
 <div class='post-inner'>
 <b:section class='main' id='main' maxwidgets='30' showaddelement='yes'>
-  <b:widget id='Label2' locked='false' title='Topics' type='Label' version='1'>
-    <b:widget-settings>
-      <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
-      <b:widget-setting name='display'>LIST</b:widget-setting>
-      <b:widget-setting name='selectedLabelsList'/>
-      <b:widget-setting name='showType'>ALL</b:widget-setting>
-      <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-<b:if cond='data:title != &quot;&quot;'>
-<h2><data:title/></h2>
-</b:if>
-<div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
-<b:if cond='data:display == &quot;list&quot;'>
-<ul>
-<b:loop values='data:labels' var='label'>
-<li>
-<b:if cond='data:blog.url == data:label.url'>
-<span expr:dir='data:blog.languageDirection'><data:label.name/></span>
-<b:else/>
-<a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
-</b:if>
-<b:if cond='data:showFreqNumbers'>
-<span dir='ltr'>(<data:label.count/>)</span>
-</b:if>
-</li>
-</b:loop>
-</ul>
-<b:else/>
-<b:loop values='data:labels' var='label'>
-<span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
-<b:if cond='data:blog.url == data:label.url'>
-<span expr:dir='data:blog.languageDirection'><data:label.name/></span>
-<b:else/>
-<a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
-</b:if>
-<b:if cond='data:showFreqNumbers'>
-<span class='label-count' dir='ltr'>(<data:label.count/>)</span>
-</b:if>
-</span>
-</b:loop>
-</b:if>
-<b:include name='quickedit'/>
-</div>
-</b:includable>
-  </b:widget>
+
   <b:widget id='Blog1' locked='false' title='Blog Posts' type='Blog' version='1'>
     <b:widget-settings>
       <b:widget-setting name='showDateHeader'>true</b:widget-setting>
@@ -1669,6 +1624,52 @@ $(this).show().attr('src', ava.replace(/\/s[0-9]+(\-c)?\//,"/s55-c/"));
 <aside id='sidebar-wrapper' itemscope='itemscope' itemtype='https://schema.org/WPSideBar'>
 <div class='sidebar-inner'>
 <b:section class='sidebar section' id='sidebar' preferred='yes'>
+  <b:widget id='Label2' locked='false' title='Topics' type='Label' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+      <b:widget-setting name='display'>LIST</b:widget-setting>
+      <b:widget-setting name='selectedLabelsList'/>
+      <b:widget-setting name='showType'>ALL</b:widget-setting>
+      <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+<b:if cond='data:title != &quot;&quot;'>
+<h2><data:title/></h2>
+</b:if>
+<div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
+<b:if cond='data:display == &quot;list&quot;'>
+<ul>
+<b:loop values='data:labels' var='label'>
+<li>
+<b:if cond='data:blog.url == data:label.url'>
+<span expr:dir='data:blog.languageDirection'><data:label.name/></span>
+<b:else/>
+<a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
+</b:if>
+<b:if cond='data:showFreqNumbers'>
+<span dir='ltr'>(<data:label.count/>)</span>
+</b:if>
+</li>
+</b:loop>
+</ul>
+<b:else/>
+<b:loop values='data:labels' var='label'>
+<span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
+<b:if cond='data:blog.url == data:label.url'>
+<span expr:dir='data:blog.languageDirection'><data:label.name/></span>
+<b:else/>
+<a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
+</b:if>
+<b:if cond='data:showFreqNumbers'>
+<span class='label-count' dir='ltr'>(<data:label.count/>)</span>
+</b:if>
+</span>
+</b:loop>
+</b:if>
+<b:include name='quickedit'/>
+</div>
+</b:includable>
+  </b:widget>
   <b:widget id='AdSense1' locked='false' title='' type='AdSense' version='1'>
     <b:includable id='main'>
 <div class='widget-content'>
