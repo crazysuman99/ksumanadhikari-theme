@@ -180,3 +180,59 @@ a:link{color:var(--blue)}a:visited{color:#475569}a:link:hover,a:visited:hover{co
 #header-wrapper #Header1 img#Header1_headerimg,
 #header-wrapper img#Header1_headerimg,
 #header-wrapper #header img{display:block!important;width:100%!important;max-width:100%!important;min-width:0!important;height:auto!important;max-height:none!important;object-fit:fill!important;margin:0!important}
+
+
+/* =========================================================
+   MOBILE SINGLE-POST STACK — FINAL OVERRIDE
+   Keep desktop columns; stack article and sidebar on phones.
+   ========================================================= */
+@media screen and (max-width:700px){
+  html body.item #content-wrapper{
+    display:block!important;
+    flex-direction:initial!important;
+    width:100%!important;
+    max-width:100%!important;
+    min-width:0!important;
+    gap:0!important;
+    padding:20px 14px 28px!important;
+    box-sizing:border-box!important;
+  }
+  html body.item #content-wrapper > #post-wrapper{
+    display:block!important;
+    float:none!important;
+    clear:both!important;
+    flex:0 0 100%!important;
+    width:100%!important;
+    max-width:100%!important;
+    min-width:0!important;
+    margin:0!important;
+    padding:0!important;
+    box-sizing:border-box!important;
+  }
+  html body.item #content-wrapper > #sidebar-wrapper{
+    display:block!important;
+    float:none!important;
+    clear:both!important;
+    flex:0 0 100%!important;
+    width:100%!important;
+    max-width:100%!important;
+    min-width:0!important;
+    margin:24px 0 0!important;
+    padding:20px 0 0!important;
+    border-left:0!important;
+    border-top:1px solid var(--line)!important;
+    box-sizing:border-box!important;
+  }
+  html body.item #sidebar-wrapper .sidebar-inner,
+  html body.item #sidebar-wrapper .widget{
+    width:100%!important;
+    max-width:100%!important;
+    min-width:0!important;
+    box-sizing:border-box!important;
+  }
+  html body.item #footer-wrapper{
+    clear:both!important;
+    width:100%!important;
+    max-width:100%!important;
+  }
+}
