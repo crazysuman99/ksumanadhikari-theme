@@ -285,3 +285,13 @@ a:link{color:var(--blue)}a:visited{color:#475569}a:link:hover,a:visited:hover{co
 .signature-network-grid-bicte .network-topics a{color:var(--blue);background:#eff6ff;border-color:#dbeafe}
 .signature-network-grid-bicte .network-topics a:hover{border-color:var(--blue);text-decoration:none}
 @media(max-width:680px){.signature-network-grid-bicte{grid-template-columns:1fr}.signature-network-grid-bicte .signature-network-group{min-height:0;padding:15px!important;gap:12px}.signature-network-grid-bicte .network-art{flex-basis:66px;width:66px;height:66px}.signature-network-grid-bicte .network-art svg{width:60px;height:54px}}
+
+/* Mission and vision vector illustrations */
+.signature-purpose-art{display:flex;align-items:center;justify-content:center;min-height:126px;margin:0 auto 16px;color:var(--blue)}
+.signature-purpose-art svg{display:block;width:176px;height:126px;max-width:100%;overflow:visible}
+.signature-purpose-art.vision-art{color:var(--green)}
+.signature-about-card{overflow:hidden}
+@media(max-width:680px){
+  .signature-purpose-art{min-height:108px;margin-bottom:12px}
+  .signature-purpose-art svg{width:154px;height:108px}
+}
