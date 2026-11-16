@@ -1370,3 +1370,69 @@ body.item .post-body.entry-content > div:first-child.separator img {
     box-sizing: border-box !important;
   }
 }
+
+
+/* =========================================================
+   FINAL SINGLE-POST MOBILE LAYOUT
+   Article first -> Sidebar second -> Footer/other content.
+   Topics is intentionally part of the sidebar on item pages.
+   ========================================================= */
+@media (max-width: 768px){
+  body.item #content-wrapper{
+    display:block!important;
+    width:100%!important;
+    max-width:100%!important;
+    overflow:visible!important;
+    box-sizing:border-box!important;
+  }
+
+  body.item #post-wrapper{
+    display:block!important;
+    float:none!important;
+    clear:none!important;
+    width:100%!important;
+    max-width:100%!important;
+    margin:0!important;
+    padding:0 12px!important;
+    box-sizing:border-box!important;
+  }
+
+  body.item #post-wrapper #main,
+  body.item #post-wrapper #main > .widget,
+  body.item #post-wrapper #main .Blog{
+    display:block!important;
+    float:none!important;
+    width:100%!important;
+    max-width:100%!important;
+    min-width:0!important;
+    box-sizing:border-box!important;
+  }
+
+  body.item #sidebar-wrapper{
+    display:block!important;
+    float:none!important;
+    clear:both!important;
+    width:100%!important;
+    max-width:100%!important;
+    min-width:0!important;
+    margin:20px 0 0!important;
+    padding:12px!important;
+    box-sizing:border-box!important;
+    border-left:0!important;
+    border-top:1px solid #e5e9f0!important;
+  }
+
+  body.item #sidebar-wrapper .sidebar-inner,
+  body.item #sidebar-wrapper .widget{
+    width:100%!important;
+    max-width:100%!important;
+    min-width:0!important;
+    box-sizing:border-box!important;
+  }
+
+  body.item #footer-wrapper{
+    clear:both!important;
+    width:100%!important;
+    max-width:100%!important;
+  }
+}
