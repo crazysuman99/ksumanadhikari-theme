@@ -281,3 +281,8 @@ a:link{color:var(--blue)}a:visited{color:#475569}a:link:hover,a:visited:hover{co
     grid-row:2!important;
   }
 }
+
+
+/* Image manager gadgets are editable in Blogger Layout; keep their raw widgets off the public page. */
+#hero-image-manager,
+#thumbnail-image-manager{display:none!important}
