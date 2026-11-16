@@ -267,3 +267,21 @@ a:link{color:var(--blue)}a:visited{color:#475569}a:link:hover,a:visited:hover{co
 .signature-service-art svg{display:block;width:112px;height:94px;max-width:100%;overflow:visible}
 .signature-service-card:nth-child(2) .signature-service-art{color:var(--green)}
 .signature-service-card:nth-child(3) .signature-service-art{color:var(--purple)}
+
+
+/* BICTE learning network: grouped subject cards and topic chips */
+.signature-network-grid-bicte{grid-template-columns:repeat(2,minmax(0,1fr))}
+.signature-network-grid-bicte .signature-network-group{display:flex!important;align-items:flex-start;gap:16px;min-height:190px;cursor:default}
+.signature-network-grid-bicte .network-art{display:flex;flex:0 0 88px;align-items:center;justify-content:center;width:88px;height:88px;color:var(--blue);background:#eff6ff;border-radius:12px}
+.signature-network-grid-bicte .network-art svg{display:block;width:76px;height:66px;max-width:100%}
+.signature-network-grid-bicte .signature-network-group:nth-child(2) .network-art{color:var(--green);background:#ecfdf5}
+.signature-network-grid-bicte .signature-network-group:nth-child(3) .network-art{color:var(--purple);background:#f5f3ff}
+.signature-network-grid-bicte .signature-network-group:nth-child(4) .network-art{color:var(--ink);background:#f1f5f9}
+.signature-network-grid-bicte .network-group-content{flex:1;min-width:0}
+.signature-network-grid-bicte .network-group-content>b{font-size:16px}
+.signature-network-grid-bicte .network-group-content>small{font-size:12px;line-height:1.55}
+.signature-network-grid-bicte .network-topics{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.signature-network-grid-bicte .network-topics span,.signature-network-grid-bicte .network-topics a{display:inline-flex;align-items:center;padding:5px 9px;border:1px solid var(--line);border-radius:6px;background:#f8fafc;color:var(--ink);font-size:11px;font-weight:700;line-height:1.25;text-decoration:none}
+.signature-network-grid-bicte .network-topics a{color:var(--blue);background:#eff6ff;border-color:#dbeafe}
+.signature-network-grid-bicte .network-topics a:hover{border-color:var(--blue);text-decoration:none}
+@media(max-width:680px){.signature-network-grid-bicte{grid-template-columns:1fr}.signature-network-grid-bicte .signature-network-group{min-height:0;padding:15px!important;gap:12px}.signature-network-grid-bicte .network-art{flex-basis:66px;width:66px;height:66px}.signature-network-grid-bicte .network-art svg{width:60px;height:54px}}
