@@ -261,3 +261,9 @@ a:link{color:var(--blue)}a:visited{color:#475569}a:link:hover,a:visited:hover{co
 .signature-pillar-card:nth-child(2) .signature-pillar-art{color:var(--green)}
 .signature-pillar-card:nth-child(3) .signature-pillar-art{color:var(--purple)}
 .signature-pillar-card:nth-child(4) .signature-pillar-art{color:var(--ink)}
+
+/* Matching vector artwork for the three learning/service cards */
+.signature-service-art{display:flex;align-items:center;justify-content:center;min-height:112px;margin:0 0 14px;color:var(--blue)}
+.signature-service-art svg{display:block;width:112px;height:94px;max-width:100%;overflow:visible}
+.signature-service-card:nth-child(2) .signature-service-art{color:var(--green)}
+.signature-service-card:nth-child(3) .signature-service-art{color:var(--purple)}
