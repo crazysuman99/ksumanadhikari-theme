@@ -1153,46 +1153,7 @@ $(this).show().attr('src', ava.replace(/\/s[0-9]+(\-c)?\//,"/s55-c/"));
       </h1>
    </b:if>
 </b:if>
-<div class='post-information'>
-<b:if cond='data:top.showAuthor'>
-            <b:if cond='data:post.authorProfileUrl'>
-			  <span class='author-info'>
-                <i class='fa fa-user'/>
-			  <span class='vcard' itemprop='author' itemscope='itemscope' itemtype='https://schema.org/Person'>
-			  <span class='fn'> 
-                <a class='g-profile' expr:href='data:post.authorProfileUrl' rel='author' title='author profile'>
-                  <span itemprop='name'><data:post.author/></span>
-                </a>
-              </span>
-			  </span>
-			  </span>
-            <b:else/>
-			  <span class='author-info'>
-                <i class='fa fa-user'/>
-              <span class='fn'>
-                <span itemprop='name'><data:post.author/></span>
-              </span>
-			  </span>
-            </b:if>
-        </b:if>
-		<b:if cond='data:top.showTimestamp'>
-        <b:if cond='data:post.url'>
-		  <span class='time-info'>
-            <i class='fa fa-clock-o'/> <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published updated' expr:title='data:post.timestampISO8601'><data:post.timestamp/></abbr></a>
-		  </span>
-        </b:if>
-        </b:if> 
-<b:if cond='data:blog.pageType == &quot;item&quot;'>
-<b:if cond='data:post.labels'>
-<span class='label-info'> 
-<b:loop values='data:post.labels' var='label'>
-<a expr:href='data:label.url + &quot;?max-results=6&quot;' rel='tag'><data:label.name/></a><b:if cond='data:label.isLast != &quot;true&quot;'/>
-</b:loop>
-</span>
-</b:if>
-</b:if>
-<b:include data='post' name='postQuickEdit'/>
-</div>
+
 
     <div class='post-header'>
     <div class='post-header-line-1'/>
