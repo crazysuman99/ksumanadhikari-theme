@@ -1141,14 +1141,6 @@ $(this).show().attr('src', ava.replace(/\/s[0-9]+(\-c)?\//,"/s55-c/"));
 
     <div class='post-header'>
     <div class='post-header-line-1'/>
- 
-                      </a> 
-                    </span> 
-                  <b:else/> 
-                    <span class='fn author'><span itemprop='name'><data:post.author/></span></span> 
-                  </b:if> 
-                </b:if> 
-              </span>
     </div>
 <b:if cond='data:post.firstImageUrl'>
    <a expr:content='data:post.firstImageUrl'/>
