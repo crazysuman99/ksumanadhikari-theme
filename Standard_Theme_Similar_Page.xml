@@ -124,10 +124,10 @@ body#layout #banner .add_widget,#layout #banner2 .add_widget{width:80%;margin:5p
 <link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@e577612156bda04a1e5ca006e630e56536217402/css/overall.css' rel='stylesheet' type='text/css'/>
 <!-- Dedicated homepage/archive post card styles -->
 <link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@391a02eae9567911dc1a6e58ca1f97bec6700d17/css/post-cards.css' rel='stylesheet' type='text/css'/>
-<link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@86b15ae47ce1019b22969f7fb782d2d70b12aa72/css/brand-system.css' rel='stylesheet' type='text/css'/>
+<link href='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@2289fbe212aa21f8fe9ec3113c4f8c4326d5df10/css/brand-system.css' rel='stylesheet' type='text/css'/>
 
 <script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'/>
-<script defer='defer' src='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@f5510f1e320221c4f432c7294f1a4dc6a47e6567/js/theme.js'/>
+<script defer='defer' src='https://cdn.jsdelivr.net/gh/crazysuman99/ksumanadhikari-theme@6c796a6c0e503f2400664421862f90dab237e37a/js/theme.js'/>
 <script type='text/javascript'>
 //<![CDATA[
 //CSS Ready
@@ -334,9 +334,7 @@ loadCSS("https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700");l
     <p><b>Learn the Logic. Master the Code. Build with C++.</b></p>
   </div>
 
-  <div class="signature-intro-image">
-    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUk0fbwM3V7QQeSJxwtSR7U_tyDNC_mDMtyV1_sHU5rbswFwT02tmyTSXxmflh15-EdlKyhPWWbK_VKYtBHdXklwIUOwcNPyQCP6_5tIjW6HWXp1cB2bx0ZxWaQX0IF3iBfPjdB9o_DfyqPCgtPI2P9bYl1q4UU_XCtZVF-vE4cGN69yJPCTQK0nitf5I/s1600" alt="C++ Programming and Learning"/>
-  </div>
+  
 </section>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
